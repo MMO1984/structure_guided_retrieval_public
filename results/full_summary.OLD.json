@@ -1,0 +1,11 @@
+{
+  "n_questions": 150,
+  "accuracy_original": 0.56,
+  "accuracy_wholepage": 0.5666666666666667,
+  "page_recall_decimal": 0.6786245301047193,
+  "page_precision_decimal": 0.0734495027391964,
+  "page_recall_wholepage": 0.8211111111111111,
+  "page_precision_wholepage": 0.05737666496237945,
+  "avg_tokens_original": 11925.973333333333,
+  "avg_tokens_wholepage": 25252.753333333334
+}

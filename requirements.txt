@@ -1,0 +1,6 @@
+google-generativeai
+sentence-transformers
+rank-bm25
+numpy
+PyMuPDF
+requests

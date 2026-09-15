@@ -1,0 +1,562 @@
+[
+  {
+    "financebench_id": "financebench_id_00438",
+    "company": "Adobe",
+    "doc_name": "ADOBE_2022_10K",
+    "question_type": "domain-relevant",
+    "question_reasoning": "Numerical reasoning OR information extraction",
+    "domain_question_num": "dg14",
+    "question": "Does Adobe have an improving operating margin profile as of FY2022? If operating margin is not a useful metric for a company like this, then state that and explain why.",
+    "answer": "No the operating margins of Adobe have recently declined from 36.8% in FY 2021 to 34.6% in FY2022. A drop by 2.2% in a year.",
+    "justification": "6098/16388\n5802/14573",
+    "dataset_subset_label": "OPEN_SOURCE",
+    "evidence": [
+      {
+        "evidence_text": "ADOBE INC.\nCONSOLIDATED STATEMENTS OF INCOME\n(In millions, except per share data)\n \nYears Ended\n \nDecember 2,\n2022\nDecember 3,\n2021\nNovember 27,\n2020\nRevenue:\n \nSubscription\n$ \n16,388 $ \n14,573 $ \n11,626 \nProduct\n \n532 \n555 \n507 \nServices and other\n \n686 \n657 \n735 \nTotal revenue\n \n17,606 \n15,785 \n12,868 \n \nCost of revenue:\nSubscription\n \n1,646 \n1,374 \n1,108 \nProduct\n \n35 \n41 \n36 \nServices and other\n \n484 \n450 \n578 \nTotal cost of revenue\n \n2,165 \n1,865 \n1,722 \n \nGross profit\n \n15,441 \n13,920 \n11,146 \n \nOperating expenses:\nResearch and development\n \n2,987 \n2,540 \n2,188 \nSales and marketing\n \n4,968 \n4,321 \n3,591 \nGeneral and administrative\n \n1,219 \n1,085 \n968 \nAmortization of intangibles\n \n169 \n172 \n162 \nTotal operating expenses\n \n9,343 \n8,118 \n6,909 \n \nOperating income\n \n6,098 \n5,802 \n4,237",
+        "doc_name": "ADOBE_2022_10K",
+        "evidence_page_num": 53,
+        "evidence_text_full_page": "ADOBE INC.\nCONSOLIDATED STATEMENTS OF INCOME\n(In millions, except per share data)\n \nYears Ended\n \nDecember 2,\n2022\nDecember 3,\n2021\nNovember 27,\n2020\nRevenue:\n \nSubscription\n$ \n16,388 $ \n14,573 $ \n11,626 \nProduct\n \n532 \n555 \n507 \nServices and other\n \n686 \n657 \n735 \nTotal revenue\n \n17,606 \n15,785 \n12,868 \n \nCost of revenue:\nSubscription\n \n1,646 \n1,374 \n1,108 \nProduct\n \n35 \n41 \n36 \nServices and other\n \n484 \n450 \n578 \nTotal cost of revenue\n \n2,165 \n1,865 \n1,722 \n \nGross profit\n \n15,441 \n13,920 \n11,146 \n \nOperating expenses:\nResearch and development\n \n2,987 \n2,540 \n2,188 \nSales and marketing\n \n4,968 \n4,321 \n3,591 \nGeneral and administrative\n \n1,219 \n1,085 \n968 \nAmortization of intangibles\n \n169 \n172 \n162 \nTotal operating expenses\n \n9,343 \n8,118 \n6,909 \n \nOperating income\n \n6,098 \n5,802 \n4,237 \n \nNon-operating income (expense):\nInterest expense\n \n(112) \n(113) \n(116) \nInvestment gains (losses), net\n \n(19) \n16 \n13 \nOther income (expense), net\n \n41 \n \n42 \nTotal non-operating income (expense), net\n \n(90) \n(97) \n(61) \nIncome before income taxes\n \n6,008 \n5,705 \n4,176 \nProvision for (benefit from) income taxes\n \n1,252 \n883 \n(1,084) \nNet income\n$ \n4,756 $ \n4,822 $ \n5,260 \nBasic net income per share\n$ \n10.13 $ \n10.10 $ \n10.94 \nShares used to compute basic net income per share\n \n470 \n477 \n481 \nDiluted net income per share\n$ \n10.10 $ \n10.02 $ \n10.83 \nShares used to compute diluted net income per share\n \n471 \n481 \n485 \nSee accompanying Notes to Consolidated Financial Statements.\nTable of Contents\n54\n"
+      }
+    ],
+    "gics_sector": "Information Technology",
+    "doc_type": "10k",
+    "doc_period": 2022,
+    "doc_link": "https://www.adobe.com/pdf-page.html?pdfTarget=aHR0cHM6Ly93d3cuYWRvYmUuY29tL2NvbnRlbnQvZGFtL2NjL2VuL2ludmVzdG9yLXJlbGF0aW9ucy9wZGZzL0FEQkUtMTBLLUZZMjItRklOQUwucGRm",
+    "evidence_pages": [
+      {
+        "doc_name": "ADBE_2022_10K",
+        "page_num": 53
+      }
+    ]
+  },
+  {
+    "financebench_id": "financebench_id_00591",
+    "company": "Adobe",
+    "doc_name": "ADOBE_2022_10K",
+    "question_type": "novel-generated",
+    "question_reasoning": null,
+    "domain_question_num": null,
+    "question": "Does Adobe have an improving Free cashflow conversion as of FY2022?",
+    "answer": "Yes, the FCF conversion (using net income as the denominator) for Adobe has improved by ~13% from 143% in 2021 to 156% in 2022",
+    "justification": "FCF Conversion: (Net cash provided by operating activities - Purchases of property and equipment)/Net income\n(7838-442)/4756\n(7230-348)/4822",
+    "dataset_subset_label": "OPEN_SOURCE",
+    "evidence": [
+      {
+        "evidence_text": "ADOBE INC.\n CONSOLIDATED STATEMENTS OF CASH FLOWS\n(In millions)\n \nYears Ended\n \nDecember 2,\n2022\nDecember 3,\n2021\nNovember 27,\n2020\nCash flows from operating activities:\n \n \nNet income\n$ \n4,756 \n$ \n4,822 \n$ \n5,260 \nAdjustments to reconcile net income to net cash provided by operating activities:\nDepreciation, amortization and accretion\n \n856 \n \n788 \n \n757 \nStock-based compensation\n \n1,440 \n \n1,069 \n \n909 \nReduction of operating lease right-of-use assets\n \n83 \n \n73 \n \n87 \nDeferred income taxes\n \n328 \n \n183 \n \n(1,501) \nUnrealized losses (gains) on investments, net\n \n29 \n \n(4) \n(11) \nOther non-cash items\n \n10 \n \n7 \n \n40 \nChanges in operating assets and liabilities, net of acquired assets and \n assumed liabilities:\nTrade receivables, net\n \n(198) \n(430) \n106 \nPrepaid expenses and other assets\n \n(94) \n(475) \n(288) \nTrade payables\n \n66 \n \n(20) \n96 \nAccrued expenses and other liabilities\n \n7 \n \n162 \n \n86 \nIncome taxes payable\n \n19 \n \n2 \n \n(72) \nDeferred revenue\n \n536 \n \n1,053 \n \n258 \nNet cash provided by operating activities\n \n7,838 \n \n7,230 \n \n5,727 \nCash flows from investing activities:\n \n \nPurchases of short-term investments\n \n(909) \n(1,533) \n(1,071) \nMaturities of short-term investments\n \n683 \n \n877 \n \n915 \nProceeds from sales of short-term investments\n \n270 \n \n191 \n \n167 \nAcquisitions, net of cash acquired\n \n(126) \n(2,682) \n \nPurchases of property and equipment\n \n(442) \n(348) \n(419) \nPurchases of long-term investments, intangibles and other assets\n \n(46) \n(42) \n(15) \nProceeds from sales of long-term investments and other assets\n \n \n \n \n \n9 \nNet cash used for investing activities\n \n(570) \n(3,537) \n(414)",
+        "doc_name": "ADOBE_2022_10K",
+        "evidence_page_num": 56,
+        "evidence_text_full_page": "ADOBE INC.\n CONSOLIDATED STATEMENTS OF CASH FLOWS\n(In millions)\n \nYears Ended\n \nDecember 2,\n2022\nDecember 3,\n2021\nNovember 27,\n2020\nCash flows from operating activities:\n \n \nNet income\n$ \n4,756 \n$ \n4,822 \n$ \n5,260 \nAdjustments to reconcile net income to net cash provided by operating activities:\nDepreciation, amortization and accretion\n \n856 \n \n788 \n \n757 \nStock-based compensation\n \n1,440 \n \n1,069 \n \n909 \nReduction of operating lease right-of-use assets\n \n83 \n \n73 \n \n87 \nDeferred income taxes\n \n328 \n \n183 \n \n(1,501) \nUnrealized losses (gains) on investments, net\n \n29 \n \n(4) \n(11) \nOther non-cash items\n \n10 \n \n7 \n \n40 \nChanges in operating assets and liabilities, net of acquired assets and \n assumed liabilities:\nTrade receivables, net\n \n(198) \n(430) \n106 \nPrepaid expenses and other assets\n \n(94) \n(475) \n(288) \nTrade payables\n \n66 \n \n(20) \n96 \nAccrued expenses and other liabilities\n \n7 \n \n162 \n \n86 \nIncome taxes payable\n \n19 \n \n2 \n \n(72) \nDeferred revenue\n \n536 \n \n1,053 \n \n258 \nNet cash provided by operating activities\n \n7,838 \n \n7,230 \n \n5,727 \nCash flows from investing activities:\n \n \nPurchases of short-term investments\n \n(909) \n(1,533) \n(1,071) \nMaturities of short-term investments\n \n683 \n \n877 \n \n915 \nProceeds from sales of short-term investments\n \n270 \n \n191 \n \n167 \nAcquisitions, net of cash acquired\n \n(126) \n(2,682) \n \nPurchases of property and equipment\n \n(442) \n(348) \n(419) \nPurchases of long-term investments, intangibles and other assets\n \n(46) \n(42) \n(15) \nProceeds from sales of long-term investments and other assets\n \n \n \n \n \n9 \nNet cash used for investing activities\n \n(570) \n(3,537) \n(414) \nCash flows from financing activities:\n \n \nRepurchases of common stock\n \n(6,550) \n(3,950) \n(3,050) \nProceeds from re-issuance of treasury stock\n \n278 \n \n291 \n \n270 \nTaxes paid related to net share settlement of equity awards\n \n(518) \n(719) \n(681) \nProceeds from issuance of debt\n \n \n \n \n \n3,144 \nRepayment of debt\n \n \n \n \n \n(3,150) \nOther financing activities, net\n \n(35) \n77 \n \n(21) \nNet cash used for financing activities\n \n(6,825) \n(4,301) \n(3,488) \nEffect of foreign currency exchange rates on cash and cash equivalents\n \n(51) \n(26) \n3 \nNet change in cash and cash equivalents\n \n392 \n \n(634) \n1,828 \nCash and cash equivalents at beginning of year\n \n3,844 \n \n4,478 \n \n2,650 \nCash and cash equivalents at end of year\n$ \n4,236 \n$ \n3,844 \n$ \n4,478 \nSupplemental disclosures:\n \nCash paid for income taxes, net of refunds\n$ \n778 \n$ \n843 \n$ \n469 \nCash paid for interest\n$ \n103 \n$ \n100 \n$ \n88 \nSee accompanying Notes to Consolidated Financial Statements.\nTable of Contents\n57\n"
+      }
+    ],
+    "gics_sector": "Information Technology",
+    "doc_type": "10k",
+    "doc_period": 2022,
+    "doc_link": "https://www.adobe.com/pdf-page.html?pdfTarget=aHR0cHM6Ly93d3cuYWRvYmUuY29tL2NvbnRlbnQvZGFtL2NjL2VuL2ludmVzdG9yLXJlbGF0aW9ucy9wZGZzL0FEQkUtMTBLLUZZMjItRklOQUwucGRm",
+    "evidence_pages": [
+      {
+        "doc_name": "ADBE_2022_10K",
+        "page_num": 56
+      }
+    ]
+  },
+  {
+    "financebench_id": "financebench_id_06655",
+    "company": "Amazon",
+    "doc_name": "AMAZON_2017_10K",
+    "question_type": "metrics-generated",
+    "question_reasoning": "Numerical reasoning",
+    "domain_question_num": null,
+    "question": "What is Amazon's FY2017 days payable outstanding (DPO)? DPO is defined as: 365 * (average accounts payable between FY2016 and FY2017) / (FY2017 COGS + change in inventory between FY2016 and FY2017). Round your answer to two decimal places. Address the question by using the line items and information shown within the balance sheet and the P&L statement.",
+    "answer": "93.86",
+    "justification": "The metric in question was calculated using other simpler metrics. The various simpler metrics (from the current and, if relevant, previous fiscal year(s)) used were:\n\nMetric 1: Accounts payable. This metric was located in the 10K as a single line item named: Accounts payable.\n\nMetric 2: Inventories. This metric was located in the 10K as a single line item named: Inventories.\n\nMetric 3: Cost of goods sold. This metric was located in the 10K as a single line item named: Cost of sales.",
+    "dataset_subset_label": "OPEN_SOURCE",
+    "evidence": [
+      {
+        "evidence_text": "Table of Contents\nAMAZON.COM, INC.\nCONSOLIDATED STATEMENTS OF OPERATIONS\n(in millions, except per share data)\n \n \nYear Ended December 31,\n \n2015\n \n2016\n \n2017\nNet product sales\n$\n79,268 $\n94,665 $\n118,573\nNet service sales\n27,738 \n41,322 \n59,293\nTotal net sales\n107,006 \n135,987 \n177,866\nOperating expenses:\n \n \n \nCost of sales\n71,651 \n88,265 \n111,934\nFulfillment\n13,410 \n17,619 \n25,249\nMarketing\n5,254 \n7,233 \n10,069\nTechnology and content\n12,540 \n16,085 \n22,620\nGeneral and administrative\n1,747 \n2,432 \n3,674\nOther operating expense, net\n171 \n167 \n214\nTotal operating expenses\n104,773 \n131,801 \n173,760\nOperating income\n2,233 \n4,186 \n4,106\nInterest income\n50 \n100 \n202\nInterest expense\n(459) \n(484) \n(848)\nOther income (expense), net\n(256) \n90 \n346\nTotal non-operating income (expense)\n(665) \n(294) \n(300)\nIncome before income taxes\n1,568 \n3,892 \n3,806\nProvision for income taxes\n(950) \n(1,425) \n(769)\nEquity-method investment activity, net of tax\n(22) \n(96) \n(4)\nNet income\n$\n596 $\n2,371 $\n3,033\nBasic earnings per share\n$\n1.28 $\n5.01 $\n6.32\nDiluted earnings per share\n$\n1.25 $\n4.90 $\n6.15\nWeighted-average shares used in computation of earnings per share:\n \n \n \nBasic\n467 \n474 \n480\nDiluted\n477 \n484 \n493\nSee accompanying notes to consolidated financial statements.\n38",
+        "doc_name": "AMAZON_2017_10K",
+        "evidence_page_num": 37,
+        "evidence_text_full_page": "Table of Contents\nAMAZON.COM, INC.\nCONSOLIDATED STATEMENTS OF OPERATIONS\n(in millions, except per share data)\n \n \nYear Ended December 31,\n \n2015\n \n2016\n \n2017\nNet product sales\n$\n79,268 $\n94,665 $\n118,573\nNet service sales\n27,738 \n41,322 \n59,293\nTotal net sales\n107,006 \n135,987 \n177,866\nOperating expenses:\n \n \n \nCost of sales\n71,651 \n88,265 \n111,934\nFulfillment\n13,410 \n17,619 \n25,249\nMarketing\n5,254 \n7,233 \n10,069\nTechnology and content\n12,540 \n16,085 \n22,620\nGeneral and administrative\n1,747 \n2,432 \n3,674\nOther operating expense, net\n171 \n167 \n214\nTotal operating expenses\n104,773 \n131,801 \n173,760\nOperating income\n2,233 \n4,186 \n4,106\nInterest income\n50 \n100 \n202\nInterest expense\n(459) \n(484) \n(848)\nOther income (expense), net\n(256) \n90 \n346\nTotal non-operating income (expense)\n(665) \n(294) \n(300)\nIncome before income taxes\n1,568 \n3,892 \n3,806\nProvision for income taxes\n(950) \n(1,425) \n(769)\nEquity-method investment activity, net of tax\n(22) \n(96) \n(4)\nNet income\n$\n596 $\n2,371 $\n3,033\nBasic earnings per share\n$\n1.28 $\n5.01 $\n6.32\nDiluted earnings per share\n$\n1.25 $\n4.90 $\n6.15\nWeighted-average shares used in computation of earnings per share:\n \n \n \nBasic\n467 \n474 \n480\nDiluted\n477 \n484 \n493\nSee accompanying notes to consolidated financial statements.\n38\n"
+      },
+      {
+        "evidence_text": "Table of Contents\nAMAZON.COM, INC.\nCONSOLIDATED BALANCE SHEETS\n(in millions, except per share data)\n \n \nDecember 31,\n \n2016\n \n2017\nASSETS\n \n \nCurrent assets:\n \n \nCash and cash equivalents\n$\n19,334 $\n20,522\nMarketable securities\n6,647 \n10,464\nInventories\n11,461 \n16,047\nAccounts receivable, net and other\n8,339 \n13,164\nTotal current assets\n45,781 \n60,197\nProperty and equipment, net\n29,114 \n48,866\nGoodwill\n3,784 \n13,350\nOther assets\n4,723 \n8,897\nTotal assets\n$\n83,402 $\n131,310\nLIABILITIES AND STOCKHOLDERS EQUITY\n \n \nCurrent liabilities:\n \n \nAccounts payable\n$\n25,309 $\n34,616\nAccrued expenses and other\n13,739 \n18,170\nUnearned revenue\n4,768 \n5,097\nTotal current liabilities\n43,816 \n57,883\nLong-term debt\n7,694 \n24,743\nOther long-term liabilities\n12,607 \n20,975\nCommitments and contingencies (Note 7)\n \nStockholders equity:\n \n \nPreferred stock, $0.01 par value:\n \n \nAuthorized shares 500\n \n \nIssued and outstanding shares none\n \n\nCommon stock, $0.01 par value:\n \n \nAuthorized shares 5,000\n \n \nIssued shares 500 and 507\n \n \nOutstanding shares 477 and 484\n5 \n5\nTreasury stock, at cost\n(1,837) \n(1,837)\nAdditional paid-in capital\n17,186 \n21,389\nAccumulated other comprehensive loss\n(985) \n(484)\nRetained earnings\n4,916 \n8,636\nTotal stockholders equity\n19,285 \n27,709\nTotal liabilities and stockholders equity\n$\n83,402 $\n131,310\nSee accompanying notes to consolidated financial statements.\n40",
+        "doc_name": "AMAZON_2017_10K",
+        "evidence_page_num": 39,
+        "evidence_text_full_page": "Table of Contents\nAMAZON.COM, INC.\nCONSOLIDATED BALANCE SHEETS\n(in millions, except per share data)\n \n \nDecember 31,\n \n2016\n \n2017\nASSETS\n \n \nCurrent assets:\n \n \nCash and cash equivalents\n$\n19,334 $\n20,522\nMarketable securities\n6,647 \n10,464\nInventories\n11,461 \n16,047\nAccounts receivable, net and other\n8,339 \n13,164\nTotal current assets\n45,781 \n60,197\nProperty and equipment, net\n29,114 \n48,866\nGoodwill\n3,784 \n13,350\nOther assets\n4,723 \n8,897\nTotal assets\n$\n83,402 $\n131,310\nLIABILITIES AND STOCKHOLDERS EQUITY\n \n \nCurrent liabilities:\n \n \nAccounts payable\n$\n25,309 $\n34,616\nAccrued expenses and other\n13,739 \n18,170\nUnearned revenue\n4,768 \n5,097\nTotal current liabilities\n43,816 \n57,883\nLong-term debt\n7,694 \n24,743\nOther long-term liabilities\n12,607 \n20,975\nCommitments and contingencies (Note 7)\n \nStockholders equity:\n \n \nPreferred stock, $0.01 par value:\n \n \nAuthorized shares 500\n \n \nIssued and outstanding shares none\n \n\nCommon stock, $0.01 par value:\n \n \nAuthorized shares 5,000\n \n \nIssued shares 500 and 507\n \n \nOutstanding shares 477 and 484\n5 \n5\nTreasury stock, at cost\n(1,837) \n(1,837)\nAdditional paid-in capital\n17,186 \n21,389\nAccumulated other comprehensive loss\n(985) \n(484)\nRetained earnings\n4,916 \n8,636\nTotal stockholders equity\n19,285 \n27,709\nTotal liabilities and stockholders equity\n$\n83,402 $\n131,310\nSee accompanying notes to consolidated financial statements.\n40\n"
+      }
+    ],
+    "gics_sector": "Consumer Discretionary",
+    "doc_type": "10k",
+    "doc_period": 2017,
+    "doc_link": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001018724/02da2a86-7bb9-4bcb-95ae-4ce27ea5e3bc.pdf",
+    "evidence_pages": [
+      {
+        "doc_name": "AMZN_2017_10K",
+        "page_num": 37
+      },
+      {
+        "doc_name": "AMZN_2017_10K",
+        "page_num": 39
+      }
+    ]
+  },
+  {
+    "financebench_id": "financebench_id_08135",
+    "company": "Amazon",
+    "doc_name": "AMAZON_2017_10K",
+    "question_type": "metrics-generated",
+    "question_reasoning": "Numerical reasoning",
+    "domain_question_num": null,
+    "question": "What is Amazon's year-over-year change in revenue from FY2016 to FY2017 (in units of percents and round to one decimal place)? Calculate what was asked by utilizing the line items clearly shown in the statement of income.",
+    "answer": "30.8%",
+    "justification": "The metric total revenue was directly extracted from the company 10K. The line item name, as seen in the 10K, was: Total net sales. The final step was to execute the desired percent change calculation on total revenue.",
+    "dataset_subset_label": "OPEN_SOURCE",
+    "evidence": [
+      {
+        "evidence_text": "Table of Contents\nAMAZON.COM, INC.\nCONSOLIDATED STATEMENTS OF OPERATIONS\n(in millions, except per share data)\n \n \nYear Ended December 31,\n \n2015\n \n2016\n \n2017\nNet product sales\n$\n79,268 $\n94,665 $\n118,573\nNet service sales\n27,738 \n41,322 \n59,293\nTotal net sales\n107,006 \n135,987 \n177,866\nOperating expenses:\n \n \n \nCost of sales\n71,651 \n88,265 \n111,934\nFulfillment\n13,410 \n17,619 \n25,249\nMarketing\n5,254 \n7,233 \n10,069\nTechnology and content\n12,540 \n16,085 \n22,620\nGeneral and administrative\n1,747 \n2,432 \n3,674\nOther operating expense, net\n171 \n167 \n214\nTotal operating expenses\n104,773 \n131,801 \n173,760\nOperating income\n2,233 \n4,186 \n4,106\nInterest income\n50 \n100 \n202\nInterest expense\n(459) \n(484) \n(848)\nOther income (expense), net\n(256) \n90 \n346\nTotal non-operating income (expense)\n(665) \n(294) \n(300)\nIncome before income taxes\n1,568 \n3,892 \n3,806\nProvision for income taxes\n(950) \n(1,425) \n(769)\nEquity-method investment activity, net of tax\n(22) \n(96) \n(4)\nNet income\n$\n596 $\n2,371 $\n3,033\nBasic earnings per share\n$\n1.28 $\n5.01 $\n6.32\nDiluted earnings per share\n$\n1.25 $\n4.90 $\n6.15\nWeighted-average shares used in computation of earnings per share:\n \n \n \nBasic\n467 \n474 \n480\nDiluted\n477 \n484 \n493\nSee accompanying notes to consolidated financial statements.\n38",
+        "doc_name": "AMAZON_2017_10K",
+        "evidence_page_num": 37,
+        "evidence_text_full_page": "Table of Contents\nAMAZON.COM, INC.\nCONSOLIDATED STATEMENTS OF OPERATIONS\n(in millions, except per share data)\n \n \nYear Ended December 31,\n \n2015\n \n2016\n \n2017\nNet product sales\n$\n79,268 $\n94,665 $\n118,573\nNet service sales\n27,738 \n41,322 \n59,293\nTotal net sales\n107,006 \n135,987 \n177,866\nOperating expenses:\n \n \n \nCost of sales\n71,651 \n88,265 \n111,934\nFulfillment\n13,410 \n17,619 \n25,249\nMarketing\n5,254 \n7,233 \n10,069\nTechnology and content\n12,540 \n16,085 \n22,620\nGeneral and administrative\n1,747 \n2,432 \n3,674\nOther operating expense, net\n171 \n167 \n214\nTotal operating expenses\n104,773 \n131,801 \n173,760\nOperating income\n2,233 \n4,186 \n4,106\nInterest income\n50 \n100 \n202\nInterest expense\n(459) \n(484) \n(848)\nOther income (expense), net\n(256) \n90 \n346\nTotal non-operating income (expense)\n(665) \n(294) \n(300)\nIncome before income taxes\n1,568 \n3,892 \n3,806\nProvision for income taxes\n(950) \n(1,425) \n(769)\nEquity-method investment activity, net of tax\n(22) \n(96) \n(4)\nNet income\n$\n596 $\n2,371 $\n3,033\nBasic earnings per share\n$\n1.28 $\n5.01 $\n6.32\nDiluted earnings per share\n$\n1.25 $\n4.90 $\n6.15\nWeighted-average shares used in computation of earnings per share:\n \n \n \nBasic\n467 \n474 \n480\nDiluted\n477 \n484 \n493\nSee accompanying notes to consolidated financial statements.\n38\n"
+      }
+    ],
+    "gics_sector": "Consumer Discretionary",
+    "doc_type": "10k",
+    "doc_period": 2017,
+    "doc_link": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001018724/02da2a86-7bb9-4bcb-95ae-4ce27ea5e3bc.pdf",
+    "evidence_pages": [
+      {
+        "doc_name": "AMZN_2017_10K",
+        "page_num": 37
+      }
+    ]
+  },
+  {
+    "financebench_id": "financebench_id_08286",
+    "company": "Amazon",
+    "doc_name": "AMAZON_2019_10K",
+    "question_type": "metrics-generated",
+    "question_reasoning": "Information extraction",
+    "domain_question_num": null,
+    "question": "By drawing conclusions from the information stated only in the income statement, what is Amazon's FY2019 net income attributable to shareholders (in USD millions)?",
+    "answer": "$11588.00",
+    "justification": "The metric net income was directly extracted from the company 10K. The line item name, as seen in the 10K, was: Net income.",
+    "dataset_subset_label": "OPEN_SOURCE",
+    "evidence": [
+      {
+        "evidence_text": "Table of Contents\nAMAZON.COM, INC.\nCONSOLIDATED STATEMENTS OF OPERATIONS\n(in millions, except per share data)\n \n \nYear Ended December 31,\n \n2017\n \n2018\n \n2019\nNet product sales\n$\n118,573 $\n141,915 $\n160,408\nNet service sales\n59,293 \n90,972 \n120,114\nTotal net sales\n177,866 \n232,887 \n280,522\nOperating expenses:\n \n \n \nCost of sales\n111,934 \n139,156 \n165,536\nFulfillment\n25,249 \n34,027 \n40,232\nTechnology and content\n22,620 \n28,837 \n35,931\nMarketing\n10,069 \n13,814 \n18,878\nGeneral and administrative\n3,674 \n4,336 \n5,203\nOther operating expense (income), net\n214 \n296 \n201\nTotal operating expenses\n173,760 \n220,466 \n265,981\nOperating income\n4,106 \n12,421 \n14,541\nInterest income\n202 \n440 \n832\nInterest expense\n(848) \n(1,417) \n(1,600)\nOther income (expense), net\n346 \n(183) \n203\nTotal non-operating income (expense)\n(300) \n(1,160) \n(565)\nIncome before income taxes\n3,806 \n11,261 \n13,976\nProvision for income taxes\n(769) \n(1,197) \n(2,374)\nEquity-method investment activity, net of tax\n(4) \n9 \n(14)\nNet income\n$\n3,033 $\n10,073 $\n11,588\nBasic earnings per share\n$\n6.32 $\n20.68 $\n23.46\nDiluted earnings per share\n$\n6.15 $\n20.14 $\n23.01\nWeighted-average shares used in computation of earnings per share:\n \n \n \nBasic\n480 \n487 \n494\nDiluted\n493 \n500 \n504\nSee accompanying notes to consolidated financial statements.\n38",
+        "doc_name": "AMAZON_2019_10K",
+        "evidence_page_num": 37,
+        "evidence_text_full_page": "Table of Contents\nAMAZON.COM, INC.\nCONSOLIDATED STATEMENTS OF OPERATIONS\n(in millions, except per share data)\n \n \nYear Ended December 31,\n \n2017\n \n2018\n \n2019\nNet product sales\n$\n118,573 $\n141,915 $\n160,408\nNet service sales\n59,293 \n90,972 \n120,114\nTotal net sales\n177,866 \n232,887 \n280,522\nOperating expenses:\n \n \n \nCost of sales\n111,934 \n139,156 \n165,536\nFulfillment\n25,249 \n34,027 \n40,232\nTechnology and content\n22,620 \n28,837 \n35,931\nMarketing\n10,069 \n13,814 \n18,878\nGeneral and administrative\n3,674 \n4,336 \n5,203\nOther operating expense (income), net\n214 \n296 \n201\nTotal operating expenses\n173,760 \n220,466 \n265,981\nOperating income\n4,106 \n12,421 \n14,541\nInterest income\n202 \n440 \n832\nInterest expense\n(848) \n(1,417) \n(1,600)\nOther income (expense), net\n346 \n(183) \n203\nTotal non-operating income (expense)\n(300) \n(1,160) \n(565)\nIncome before income taxes\n3,806 \n11,261 \n13,976\nProvision for income taxes\n(769) \n(1,197) \n(2,374)\nEquity-method investment activity, net of tax\n(4) \n9 \n(14)\nNet income\n$\n3,033 $\n10,073 $\n11,588\nBasic earnings per share\n$\n6.32 $\n20.68 $\n23.46\nDiluted earnings per share\n$\n6.15 $\n20.14 $\n23.01\nWeighted-average shares used in computation of earnings per share:\n \n \n \nBasic\n480 \n487 \n494\nDiluted\n493 \n500 \n504\nSee accompanying notes to consolidated financial statements.\n38\n"
+      }
+    ],
+    "gics_sector": "Consumer Discretionary",
+    "doc_type": "10k",
+    "doc_period": 2019,
+    "doc_link": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001018724/4d39f579-19d8-4119-b087-ee618abf82d6.pdf",
+    "evidence_pages": [
+      {
+        "doc_name": "AMZN_2019_10K",
+        "page_num": 37
+      }
+    ]
+  },
+  {
+    "financebench_id": "financebench_id_01936",
+    "company": "Amcor",
+    "doc_name": "AMCOR_2023Q2_10Q",
+    "question_type": "novel-generated",
+    "question_reasoning": null,
+    "domain_question_num": null,
+    "question": "What is the nature & purpose of AMCOR's restructuring liability as oF Q2 of FY2023 close?",
+    "answer": "87% of the total restructuring liability is related Employee liabilities.",
+    "justification": null,
+    "dataset_subset_label": "OPEN_SOURCE",
+    "evidence": [
+      {
+        "evidence_text": "($ in millions)\nEmployee Costs\nFixed Asset\nRelated Costs\nOther Costs\nTotal\nRestructuring\nCosts\nLiability balance at June 30, 2022\n$\n97 \n$\n3 \n$\n18 \n$\n118 \nNet charges to earnings\n2 \n \n \n2 \nCash paid\n(16)\n(1)\n(8)\n(25)\nReversal of unused amounts\n(2)\n \n \n(2)\nLiability balance at December 31, 2022\n$\n81 \n$\n2 \n$\n10 \n$\n93",
+        "doc_name": "AMCOR_2023Q2_10Q",
+        "evidence_page_num": 14,
+        "evidence_text_full_page": "Note 6 - Restructuring\n The Company's restructuring activities in the three and six months ended December 31, 2022 were primarily comprised of restructuring\nactivities related to the Russia-Ukraine conflict and the three and six months ended December 31, 2021 included expenses related to the\nCompany's 2019 plan from the integration of acquired Bemis operations which was substantially completed at the end of fiscal year 2022.\n Restructuring and related expenses, net were $2 million and $10 million during the three months ended December 31, 2022 and 2021, and $3\nmillion and $18 million in the six months ended December 31, 2022 and 2021, respectively, and primarily relate to the Flexibles reportable\nsegment. The expenses related to restructuring activities have been presented on the unaudited condensed consolidated statements of income as\nrestructuring and other related activities, net.\n An analysis of the Company's restructuring plan liability is as follows:\n($ in millions)\nEmployee Costs\nFixed Asset\nRelated Costs\nOther Costs\nTotal\nRestructuring\nCosts\nLiability balance at June 30, 2022\n$\n97 \n$\n3 \n$\n18 \n$\n118 \nNet charges to earnings\n2 \n \n \n2 \nCash paid\n(16)\n(1)\n(8)\n(25)\nReversal of unused amounts\n(2)\n \n \n(2)\nLiability balance at December 31, 2022\n$\n81 \n$\n2 \n$\n10 \n$\n93 \n The Company expects the majority of the liability for employee, fixed assets related, and other costs as of December 31, 2022 to be paid\nwithin the next twelve months. The accruals related to restructuring activities have been recorded on the unaudited condensed consolidated\nbalance sheets under other current liabilities and other non-current liabilities.\n15\n"
+      }
+    ],
+    "gics_sector": "Materials",
+    "doc_type": "10q",
+    "doc_period": 2023,
+    "doc_link": "https://portalvhds1fxb0jchzgjph.blob.core.windows.net/press-releases-attachments/1516809/Quarterly%20report%20%5BSections%2013%20or%2015(d)%5D.pdf",
+    "evidence_pages": [
+      {
+        "doc_name": "AMCR_2023Q2_10Q",
+        "page_num": 14
+      }
+    ]
+  },
+  {
+    "financebench_id": "financebench_id_00685",
+    "company": "Best Buy",
+    "doc_name": "BESTBUY_2023_10K",
+    "question_type": "domain-relevant",
+    "question_reasoning": "Logical reasoning (based on numerical reasoning) OR Logical reasoning",
+    "domain_question_num": "dg03",
+    "question": "Are Best Buy's gross margins historically consistent (not fluctuating more than roughly 2% each year)? If gross margins are not a relevant metric for a company like this, then please state that and explain why.",
+    "answer": "Yes, the margins have been consistent, there has been a minor decline of 1.1% in gross margins between FY2022 and FY2023.",
+    "justification": "Gross Profit/Revenue\n9912/46298\n11640/51761",
+    "dataset_subset_label": "OPEN_SOURCE",
+    "evidence": [
+      {
+        "evidence_text": "Consolidated Statements of Earnings\n$ and shares in millions, except per share amounts\n \n \n \n \n \n \n \n \n \n \n \n \n \nFiscal Years Ended\nJanuary 28, 2023\n \nJanuary 29, 2022\n \nJanuary 30, 2021\nRevenue\n$\n 46,298 \n \n$\n 51,761 \n \n$\n 47,262 \nCost of sales\n \n 36,386 \n \n \n 40,121 \n \n \n 36,689 \nGross profit\n \n 9,912 \n \n \n 11,640 \n \n \n 10,573 \nSelling, general and administrative expenses\n \n 7,970 \n \n \n 8,635 \n \n \n 7,928 \nRestructuring charges\n \n 147 \n \n \n (34) \n \n \n 254 \nOperating income\n \n 1,795 \n \n \n 3,039 \n \n \n 2,391 \nOther income (expense):\n \n \n \n \n \n \n \n \n \n \n \nInvestment income and other\n \n 28 \n \n \n 10 \n \n \n 38 \nInterest expense\n \n (35) \n \n \n (25) \n \n \n (52) \nEarnings before income tax expense and equity in income of affiliates\n \n 1,788 \n \n \n 3,024 \n \n \n 2,377 \nIncome tax expense\n \n 370 \n \n \n 574 \n \n \n 579 \nEquity in income of affiliates\n \n 1 \n \n \n 4 \n \n \n - \nNet earnings\n$\n 1,419 \n \n$\n 2,454 \n \n$\n 1,798",
+        "doc_name": "BESTBUY_2023_10K",
+        "evidence_page_num": 39,
+        "evidence_text_full_page": " \nConsolidated Statements of Earnings\n$ and shares in millions, except per share amounts\n \n \n \n \n \n \n \n \n \n \n \n \n \nFiscal Years Ended\nJanuary 28, 2023\n \nJanuary 29, 2022\n \nJanuary 30, 2021\nRevenue\n$\n 46,298 \n \n$\n 51,761 \n \n$\n 47,262 \nCost of sales\n \n 36,386 \n \n \n 40,121 \n \n \n 36,689 \nGross profit\n \n 9,912 \n \n \n 11,640 \n \n \n 10,573 \nSelling, general and administrative expenses\n \n 7,970 \n \n \n 8,635 \n \n \n 7,928 \nRestructuring charges\n \n 147 \n \n \n (34) \n \n \n 254 \nOperating income\n \n 1,795 \n \n \n 3,039 \n \n \n 2,391 \nOther income (expense):\n \n \n \n \n \n \n \n \n \n \n \nInvestment income and other\n \n 28 \n \n \n 10 \n \n \n 38 \nInterest expense\n \n (35) \n \n \n (25) \n \n \n (52) \nEarnings before income tax expense and equity in income of affiliates\n \n 1,788 \n \n \n 3,024 \n \n \n 2,377 \nIncome tax expense\n \n 370 \n \n \n 574 \n \n \n 579 \nEquity in income of affiliates\n \n 1 \n \n \n 4 \n \n \n - \nNet earnings\n$\n 1,419 \n \n$\n 2,454 \n \n$\n 1,798 \n \n \n \n \n \n \n \n \n \n \n \n \nBasic earnings per share\n$\n 6.31 \n \n$\n 9.94 \n \n$\n 6.93 \nDiluted earnings per share\n$\n 6.29 \n \n$\n 9.84 \n \n$\n 6.84 \n \n \n \n \n \n \n \n \n \n \n \n \nWeighted-average common shares outstanding:\n \n \n \n \n \n \n \n \n \n \n \nBasic\n \n 224.8 \n \n \n 246.8 \n \n \n 259.6 \nDiluted\n \n 225.7 \n \n \n 249.3 \n \n \n 263.0 \n \nSee Notes to Consolidated Financial Statements.\n \n \n40\n"
+      }
+    ],
+    "gics_sector": "Consumer Discretionary",
+    "doc_type": "10k",
+    "doc_period": 2023,
+    "doc_link": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000764478/a7d1c855-4d22-48e4-9d17-b5f5af923dbe.pdf",
+    "evidence_pages": [
+      {
+        "doc_name": "BBY_2023_10K",
+        "page_num": 39
+      }
+    ]
+  },
+  {
+    "financebench_id": "financebench_id_01077",
+    "company": "Best Buy",
+    "doc_name": "BESTBUY_2023_10K",
+    "question_type": "domain-relevant",
+    "question_reasoning": "Information extraction",
+    "domain_question_num": "dg10",
+    "question": "What are major acquisitions that Best Buy has done in FY2023, FY2022 and FY2021?",
+    "answer": "Best Buy closed two acquisitions, both these companies were already partially owned by Best Buy, but Best Buy acquired all outstanding shares of these two companies during FY 2022: (1) Current Health Ltd and (2) Two Peaks, LLC d/b/a Yardbird Furniture",
+    "justification": null,
+    "dataset_subset_label": "OPEN_SOURCE",
+    "evidence": [
+      {
+        "evidence_text": "Acquisitions\n \nCurrent Health Ltd.\n \nIn fiscal 2022, we acquired all of the outstanding shares of Current Health Ltd. (Current Health), a care-at-home technology platform, on November 2, 2021, for \nnet cash consideration of $389 million. The acquired assets included $351 million of goodwill that was assigned to our Best Buy Health reporting unit and was \ndeductible for income tax purposes. The acquisition is aligned with our focus in virtual care to enable people in their homes to connect seamlessly with their \nhealth care providers and is included in our Domestic reportable segment and Services revenue category. The acquisition was accounted for using the \nacquisition method of accounting for business combinations and was not material to the results of operations.\n \nTwo Peaks, LLC d/b/a Yardbird Furniture\n \nIn fiscal 2022, we acquired all of the outstanding shares of Two Peaks, LLC d/b/a Yardbird Furniture (Yardbird), a direct-to-consumer outdoor furniture company, \non November 4, 2021, for net cash consideration of $79 million. The acquired assets included $47 million of goodwill that was assigned to our Best Buy Domestic \nreporting unit and was deductible for income tax purposes. The acquisition expands our assortment in categories like outdoor living, as more and more \nconsumers look to make over or upgrade their outdoor living spaces. The acquisition was accounted for using the acquisition method of accounting for business \ncombinations and was not material to the results of our operations.",
+        "doc_name": "BESTBUY_2023_10K",
+        "evidence_page_num": 50,
+        "evidence_text_full_page": "Vendor Allowances\n \nWe receive funds from our merchandise vendors through a variety of programs and arrangements, primarily in the form of purchases-based or sales-based \nvolumes and for product advertising and placement. We recognize allowances based on purchases and sales as a reduction of cost of sales when the associated \ninventory is sold. Allowances for advertising and placement are recognized as a reduction of cost of sales ratably over the corresponding performance period. \nFunds that are determined to be a reimbursement of specific, incremental and identifiable costs incurred to sell a vendors products are recorded as an offset to \nthe related expense within SG&A when incurred.\n \nAdvertising Costs\n \nAdvertising costs, which are included in SG&A, are expensed the first time the advertisement runs. Advertising costs consist primarily of digital advertisements. \nAdvertising expenses were $864 million, $915 million and $819 million in fiscal 2023, fiscal 2022 and fiscal 2021, respectively.\n \nStock-Based Compensation\n \nWe recognize stock-based compensation expense for the fair value of our stock-based compensation awards, which is determined based on the closing market \nprice of our stock at the date of grant for time-based and performance-based share awards, and Monte-Carlo simulation for market-based share awards. \nCompensation expense is recognized on a straight-line basis over the period in which services are required, except for performance-based share awards that \nvest on a graded basis, in which case the expense is front-loaded or recognized on a graded-attribution basis. Forfeitures are expensed as incurred or upon \ntermination.\n \nComprehensive Income (Loss)\n \nComprehensive income (loss) is computed as net earnings plus certain other items that are recorded directly to shareholders equity.\n \n2. Acquisitions\n \nCurrent Health Ltd.\n \nIn fiscal 2022, we acquired all of the outstanding shares of Current Health Ltd. (Current Health), a care-at-home technology platform, on November 2, 2021, for \nnet cash consideration of $389 million. The acquired assets included $351 million of goodwill that was assigned to our Best Buy Health reporting unit and was \ndeductible for income tax purposes. The acquisition is aligned with our focus in virtual care to enable people in their homes to connect seamlessly with their \nhealth care providers and is included in our Domestic reportable segment and Services revenue category. The acquisition was accounted for using the \nacquisition method of accounting for business combinations and was not material to the results of operations.\n \nTwo Peaks, LLC d/b/a Yardbird Furniture\n \nIn fiscal 2022, we acquired all of the outstanding shares of Two Peaks, LLC d/b/a Yardbird Furniture (Yardbird), a direct-to-consumer outdoor furniture company, \non November 4, 2021, for net cash consideration of $79 million. The acquired assets included $47 million of goodwill that was assigned to our Best Buy Domestic \nreporting unit and was deductible for income tax purposes. The acquisition expands our assortment in categories like outdoor living, as more and more \nconsumers look to make over or upgrade their outdoor living spaces. The acquisition was accounted for using the acquisition method of accounting for business \ncombinations and was not material to the results of our operations.\n \n3. Restructuring\n \n \nRestructuring charges were as follows ($ in millions):\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n2023\n \n2022\n \n2021\nFiscal 2023 Resource Optimization Initiative\n \n \n$\n 145 \n \n$\n - \n \n$\n - \nMexico Exit and Strategic Realignment(1)\n \n \n \n 2 \n \n \n (41) \n \n \n 277 \nFiscal 2020 U.S. Retail Operating Model Changes\n \n -\n \n \n 1 \n \n \n -\n \nTotal\n \n \n \n \n \n$\n 147 \n \n$\n (40) \n \n$\n 277 \n \n(1)\nIncludes ($6) million and $23 million related to inventory markdowns recorded in Cost of sales on our Consolidated Statements of Earnings in fiscal 2022 and fiscal 2021, respectively.\n \nFiscal 2023 Resource Optimization Initiative\n \nIn light of ongoing changes in business trends, during the second quarter of fiscal 2023, we commenced an enterprise-wide initiative to better align our spending \nwith critical strategies and operations, as well as to optimize our cost structure. Charges incurred relate to employee termination benefits within our Domestic and \nInternational segments of $140 million and $5 million, respectively. We currently do not expect the remaining charges in fiscal 2024 related to this initiative to be \nmaterial to the results of our operations.\n \nAll charges incurred related to this initiative were from continuing operations and were presented within Restructuring charges on our Consolidated Statements of \nEarnings. \n \n51\n"
+      }
+    ],
+    "gics_sector": "Consumer Discretionary",
+    "doc_type": "10k",
+    "doc_period": 2023,
+    "doc_link": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000764478/a7d1c855-4d22-48e4-9d17-b5f5af923dbe.pdf",
+    "evidence_pages": [
+      {
+        "doc_name": "BBY_2023_10K",
+        "page_num": 50
+      }
+    ]
+  },
+  {
+    "financebench_id": "financebench_id_01275",
+    "company": "Best Buy",
+    "doc_name": "BESTBUY_2023_10K",
+    "question_type": "domain-relevant",
+    "question_reasoning": "Numerical reasoning",
+    "domain_question_num": "dg19",
+    "question": "Among operations, investing, and financing activities, which brought in the most (or lost the least) cash flow for Best Buy in FY2023?",
+    "answer": "Best Buy generated the most cash flow from operating activities in FY 2023 ($1.8 bn)",
+    "justification": null,
+    "dataset_subset_label": "OPEN_SOURCE",
+    "evidence": [
+      {
+        "evidence_text": "Consolidated Statements of Cash Flows\n$ in millions\n \n \n \n \n \n \n \n \n \n \n \n \n \n \nFiscal Years Ended\nJanuary 28, 2023\n \nJanuary 29, 2022\n \nJanuary 30, 2021\nOperating activities\n \n \n \n \n \n \n \n \n \n \n \nNet earnings\n$\n 1,419 \n \n$\n 2,454 \n \n$\n 1,798 \n \nAdjustments to reconcile net earnings to total cash provided by operating activities:\n \n \n \n \n \n \n \n \nDepreciation and amortization\n \n 918 \n \n \n 869 \n \n \n 839 \nRestructuring charges\n \n 147 \n \n \n (34) \n \n \n 254 \nStock-based compensation\n \n 138 \n \n \n 141 \n \n \n 135 \nDeferred income taxes\n \n 51 \n \n \n 14 \n \n \n (36) \nOther, net\n \n 12 \n \n \n 11 \n \n \n 3 \nChanges in operating assets and liabilities, net of acquired assets and liabilities:\n \n \n \n \n \n \n \n \n \nReceivables\n \n (103) \n \n \n 17 \n \n \n 73 \nMerchandise inventories\n \n 809 \n \n \n (328) \n \n \n (435) \nOther assets\n \n (21) \n \n \n (14) \n \n \n (51) \nAccounts payable\n \n (1,099) \n \n \n (201) \n \n \n 1,676 \nIncome taxes\n \n 36 \n \n \n (156) \n \n \n 173 \nOther liabilities\n \n (483) \n \n \n 479 \n \n \n 498 \nTotal cash provided by operating activities\n \n 1,824 \n \n \n 3,252 \n \n \n 4,927 \nInvesting activities\n \n \n \n \n \n \n \n \n \n \n \nAdditions to property and equipment, net of $35, $46 and $32, respectively, of non-cash \ncapital expenditures\n \n (930) \n \n \n (737) \n \n \n (713) \nPurchases of investments\n \n (46) \n \n \n (233) \n \n \n (620) \nSales of investments\n \n 7 \n \n \n 66 \n \n \n 546 \nAcquisitions, net of cash acquired\n \n - \n \n \n (468) \n \n \n - \nOther, net\n \n 7 \n \n \n - \n \n \n (1) \nTotal cash used in investing activities\n \n (962) \n \n \n (1,372) \n \n \n (788) \nFinancing activities\n \n \n \n \n \n \n \n \n \n \n \nRepurchase of common stock\n \n (1,014) \n \n \n (3,502) \n \n \n (312) \nIssuance of common stock\n \n 16 \n \n \n 29 \n \n \n 28 \nDividends paid\n \n (789) \n \n \n (688) \n \n \n (568) \nBorrowings of debt\n \n - \n \n \n - \n \n \n 1,892 \nRepayments of debt\n \n (19) \n \n \n (133) \n \n \n (1,916) \nOther, net\n \n - \n \n \n (3) \n \n \n - \nTotal cash used in financing activities\n \n (1,806) \n \n \n (4,297) \n \n \n (876) \n \n \n \n \n \n \n \n \n \n \n \n \nEffect of exchange rate changes on cash\n \n (8) \n \n \n (3) \n \n \n 7 \nIncrease (decrease) in cash, cash equivalents and restricted cash\n \n (952) \n \n \n (2,420) \n \n \n 3,270 \nCash, cash equivalents and restricted cash at beginning of period\n \n 3,205 \n \n \n 5,625 \n \n \n 2,355 \nCash, cash equivalents and restricted cash at end of period\n$\n 2,253 \n \n$\n 3,205 \n \n$\n 5,625",
+        "doc_name": "BESTBUY_2023_10K",
+        "evidence_page_num": 41,
+        "evidence_text_full_page": " \nConsolidated Statements of Cash Flows\n$ in millions\n \n \n \n \n \n \n \n \n \n \n \n \n \n \nFiscal Years Ended\nJanuary 28, 2023\n \nJanuary 29, 2022\n \nJanuary 30, 2021\nOperating activities\n \n \n \n \n \n \n \n \n \n \n \nNet earnings\n$\n 1,419 \n \n$\n 2,454 \n \n$\n 1,798 \n \nAdjustments to reconcile net earnings to total cash provided by operating activities:\n \n \n \n \n \n \n \n \nDepreciation and amortization\n \n 918 \n \n \n 869 \n \n \n 839 \nRestructuring charges\n \n 147 \n \n \n (34) \n \n \n 254 \nStock-based compensation\n \n 138 \n \n \n 141 \n \n \n 135 \nDeferred income taxes\n \n 51 \n \n \n 14 \n \n \n (36) \nOther, net\n \n 12 \n \n \n 11 \n \n \n 3 \nChanges in operating assets and liabilities, net of acquired assets and liabilities:\n \n \n \n \n \n \n \n \n \nReceivables\n \n (103) \n \n \n 17 \n \n \n 73 \nMerchandise inventories\n \n 809 \n \n \n (328) \n \n \n (435) \nOther assets\n \n (21) \n \n \n (14) \n \n \n (51) \nAccounts payable\n \n (1,099) \n \n \n (201) \n \n \n 1,676 \nIncome taxes\n \n 36 \n \n \n (156) \n \n \n 173 \nOther liabilities\n \n (483) \n \n \n 479 \n \n \n 498 \nTotal cash provided by operating activities\n \n 1,824 \n \n \n 3,252 \n \n \n 4,927 \nInvesting activities\n \n \n \n \n \n \n \n \n \n \n \nAdditions to property and equipment, net of $35, $46 and $32, respectively, of non-cash \ncapital expenditures\n \n (930) \n \n \n (737) \n \n \n (713) \nPurchases of investments\n \n (46) \n \n \n (233) \n \n \n (620) \nSales of investments\n \n 7 \n \n \n 66 \n \n \n 546 \nAcquisitions, net of cash acquired\n \n - \n \n \n (468) \n \n \n - \nOther, net\n \n 7 \n \n \n - \n \n \n (1) \nTotal cash used in investing activities\n \n (962) \n \n \n (1,372) \n \n \n (788) \nFinancing activities\n \n \n \n \n \n \n \n \n \n \n \nRepurchase of common stock\n \n (1,014) \n \n \n (3,502) \n \n \n (312) \nIssuance of common stock\n \n 16 \n \n \n 29 \n \n \n 28 \nDividends paid\n \n (789) \n \n \n (688) \n \n \n (568) \nBorrowings of debt\n \n - \n \n \n - \n \n \n 1,892 \nRepayments of debt\n \n (19) \n \n \n (133) \n \n \n (1,916) \nOther, net\n \n - \n \n \n (3) \n \n \n - \nTotal cash used in financing activities\n \n (1,806) \n \n \n (4,297) \n \n \n (876) \n \n \n \n \n \n \n \n \n \n \n \n \nEffect of exchange rate changes on cash\n \n (8) \n \n \n (3) \n \n \n 7 \nIncrease (decrease) in cash, cash equivalents and restricted cash\n \n (952) \n \n \n (2,420) \n \n \n 3,270 \nCash, cash equivalents and restricted cash at beginning of period\n \n 3,205 \n \n \n 5,625 \n \n \n 2,355 \nCash, cash equivalents and restricted cash at end of period\n$\n 2,253 \n \n$\n 3,205 \n \n$\n 5,625 \n \n \n \n \n \n \n \n \n \n \n \n \n \nSupplemental cash flow information\n \n \n \n \n \n \n \n \n \n \n \nIncome taxes paid\n$\n 283 \n \n$\n 716 \n \n$\n 442 \nInterest paid\n$\n 31 \n \n$\n 22 \n \n$\n 50 \n \nSee Notes to Consolidated Financial Statements.\n \n \n42\n"
+      }
+    ],
+    "gics_sector": "Consumer Discretionary",
+    "doc_type": "10k",
+    "doc_period": 2023,
+    "doc_link": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000764478/a7d1c855-4d22-48e4-9d17-b5f5af923dbe.pdf",
+    "evidence_pages": [
+      {
+        "doc_name": "BBY_2023_10K",
+        "page_num": 41
+      }
+    ]
+  },
+  {
+    "financebench_id": "financebench_id_00288",
+    "company": "Best Buy",
+    "doc_name": "BESTBUY_2024Q2_10Q",
+    "question_type": "novel-generated",
+    "question_reasoning": null,
+    "domain_question_num": null,
+    "question": "Was there any drop in Cash & Cash equivalents between FY 2023 and Q2 of FY2024?",
+    "answer": "Yes, there was a decline of ~42% between FY2023 and Q2 of FY 2024.",
+    "justification": "1093/1874-1",
+    "dataset_subset_label": "OPEN_SOURCE",
+    "evidence": [
+      {
+        "evidence_text": "July 29, 2023\n \nJuly 30, 2022\n \nJuly 29, 2023\n \nJuly 30, 2022\nOperating income\n$\n 348 \n $\n 371 \n $\n 659 \n $\n 833 \n% of revenue\n \n 3.6 % \n 3.6 % \n 3.5 % \n 4.0 %\nIntangible asset amortization(1)\n \n 21 \n \n 22 \n \n 41 \n \n 44 \nRestructuring charges(2)\n \n (7) \n \n 34 \n \n (16) \n \n 35 \nNon-GAAP operating income\n$\n 362 \n $\n 427 \n $\n 684 \n $\n 912 \n% of revenue\n \n 3.8 % \n 4.1 % \n 3.6 % \n 4.3 %\n \n \n \n \n \n \n \n \n \nEffective tax rate\n \n 26.1 % \n 15.6 % \n 24.8 % \n 20.5 %\nIntangible asset amortization(1)\n \n (0.4)% \n 0.4 % \n 0.4 % \n 0.2 %\nRestructuring charges(2)\n \n 0.4 % \n 0.7 % \n (0.1)% \n 0.1 %\nLoss on investments\n \n 0.5 % \n -% \n -% \n -%\nNon-GAAP effective tax rate\n \n 26.6 % \n 16.7 % \n 25.1 % \n 20.8 %\n \n \n \n \n \n \n \n \n \nDiluted EPS\n$\n 1.25 \n $\n 1.35 \n $\n 2.36 \n $\n 2.85 \nIntangible asset amortization(1)\n \n 0.10 \n \n 0.10 \n \n 0.18 \n \n 0.19 \nRestructuring charges(2)\n \n (0.03) \n \n 0.15 \n \n (0.07) \n \n 0.15 \nLoss on investments\n \n - \n \n - \n \n 0.02 \n \n - \nGain on sale of subsidiary, net(3)\n \n (0.10) \n \n - \n \n (0.10) \n \n - \nIncome tax impact of non-GAAP adjustments(4)\n \n - \n \n (0.06) \n \n (0.02) \n \n (0.08) \nNon-GAAP diluted EPS\n$\n 1.22 \n $\n 1.54 \n $\n 2.37 \n $\n 3.11 \nFor additional information regarding the nature of charges discussed below, refer to Note 1, Basis of Presentation, Note 2, Restructuring, and Note 3, Goodwill and Intangible Assets, of the Notes to \nCondensed Consolidated Financial Statements, included in this Quarterly Report on Form 10-Q.\n(1)\nRepresents the non-cash amortization of definite-lived intangible assets associated with acquisitions, including customer relationships, tradenames and developed technology assets.\n(2)\nRepresents charges related to employee termination benefits and subsequent adjustments from higher-than-expected employee retention related to previously planned organizational changes.\n(3)\nRepresents the gain on sale of a Mexico subsidiary subsequent to our exit from operations in Mexico.\n(4)\nThe non-GAAP adjustments primarily relate to the U.S. and Mexico. As such, the forecasted annual income tax charge on the U.S. non-GAAP adjustments is calculated using the statutory tax rate of \n24.5%. There is no forecasted annual income tax benefit for Mexico non-GAAP items, as there is no forecasted annual tax expense on the income in the calculation of GAAP income tax expense.\n \nOur non-GAAP operating income rates decreased in the second quarter and first six months of fiscal 2024, primarily due to unfavorable SG&A rates, partially \noffset by favorable gross profit rates.\n \nOur non-GAAP effective tax rate increased in the second quarter of fiscal 2024, primarily due to the prior year resolution of certain discrete tax matters. Our non-\nGAAP effective tax rate increased in the first six months of fiscal 2024, primarily due to the prior year resolution of certain discrete tax matters and decreased tax \nbenefits from stock-based compensation, partially offset by the impact of lower pre-tax earnings.\n \nOur non-GAAP diluted EPS decreased in the second quarter and first six months of fiscal 2024, primarily due to the decreases in non-GAAP operating income.\n \nLiquidity and Capital Resources\n \nWe closely manage our liquidity and capital resources. Our liquidity requirements depend on key variables, including the level of investment required to support \nour business strategies, the performance of our business, capital expenditures, dividends, credit facilities, short-term borrowing arrangements and working capital \nmanagement. We modify our approach to managing these variables as changes in our operating environment arise. For example, capital expenditures and share \nrepurchases are a component of our cash flow and capital management strategy, which, to a large extent, we can adjust in response to economic and other \nchanges in our business environment. We have a disciplined approach to capital allocation, which focuses on investing in key priorities that support our strategy.\n \nCash and cash equivalents were as follows ($ in millions):\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nJuly 29, 2023\n \nJanuary 28, 2023\n \nJuly 30, 2022\nCash and cash equivalents\n \n $\n 1,093 $\n 1,874 $\n 840",
+        "doc_name": "BESTBUY_2024Q2_10Q",
+        "evidence_page_num": 19,
+        "evidence_text_full_page": " \nTable of Contents\n \nConsolidated Non-GAAP Financial Measures\n \nReconciliations of operating income, effective tax rate and diluted EPS (GAAP financial measures) to non-GAAP operating income, non-GAAP effective tax rate \nand non-GAAP diluted EPS (non-GAAP financial measures) were as follows ($ in millions, except per share amounts):\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nThree Months Ended\n \nSix Months Ended\n \nJuly 29, 2023\n \nJuly 30, 2022\n \nJuly 29, 2023\n \nJuly 30, 2022\nOperating income\n$\n 348 \n $\n 371 \n $\n 659 \n $\n 833 \n% of revenue\n \n 3.6 % \n 3.6 % \n 3.5 % \n 4.0 %\nIntangible asset amortization(1)\n \n 21 \n \n 22 \n \n 41 \n \n 44 \nRestructuring charges(2)\n \n (7) \n \n 34 \n \n (16) \n \n 35 \nNon-GAAP operating income\n$\n 362 \n $\n 427 \n $\n 684 \n $\n 912 \n% of revenue\n \n 3.8 % \n 4.1 % \n 3.6 % \n 4.3 %\n \n \n \n \n \n \n \n \n \nEffective tax rate\n \n 26.1 % \n 15.6 % \n 24.8 % \n 20.5 %\nIntangible asset amortization(1)\n \n (0.4)% \n 0.4 % \n 0.4 % \n 0.2 %\nRestructuring charges(2)\n \n 0.4 % \n 0.7 % \n (0.1)% \n 0.1 %\nLoss on investments\n \n 0.5 % \n -% \n -% \n -%\nNon-GAAP effective tax rate\n \n 26.6 % \n 16.7 % \n 25.1 % \n 20.8 %\n \n \n \n \n \n \n \n \n \nDiluted EPS\n$\n 1.25 \n $\n 1.35 \n $\n 2.36 \n $\n 2.85 \nIntangible asset amortization(1)\n \n 0.10 \n \n 0.10 \n \n 0.18 \n \n 0.19 \nRestructuring charges(2)\n \n (0.03) \n \n 0.15 \n \n (0.07) \n \n 0.15 \nLoss on investments\n \n - \n \n - \n \n 0.02 \n \n - \nGain on sale of subsidiary, net(3)\n \n (0.10) \n \n - \n \n (0.10) \n \n - \nIncome tax impact of non-GAAP adjustments(4)\n \n - \n \n (0.06) \n \n (0.02) \n \n (0.08) \nNon-GAAP diluted EPS\n$\n 1.22 \n $\n 1.54 \n $\n 2.37 \n $\n 3.11 \nFor additional information regarding the nature of charges discussed below, refer to Note 1, Basis of Presentation, Note 2, Restructuring, and Note 3, Goodwill and Intangible Assets, of the Notes to \nCondensed Consolidated Financial Statements, included in this Quarterly Report on Form 10-Q.\n(1)\nRepresents the non-cash amortization of definite-lived intangible assets associated with acquisitions, including customer relationships, tradenames and developed technology assets.\n(2)\nRepresents charges related to employee termination benefits and subsequent adjustments from higher-than-expected employee retention related to previously planned organizational changes.\n(3)\nRepresents the gain on sale of a Mexico subsidiary subsequent to our exit from operations in Mexico.\n(4)\nThe non-GAAP adjustments primarily relate to the U.S. and Mexico. As such, the forecasted annual income tax charge on the U.S. non-GAAP adjustments is calculated using the statutory tax rate of \n24.5%. There is no forecasted annual income tax benefit for Mexico non-GAAP items, as there is no forecasted annual tax expense on the income in the calculation of GAAP income tax expense.\n \nOur non-GAAP operating income rates decreased in the second quarter and first six months of fiscal 2024, primarily due to unfavorable SG&A rates, partially \noffset by favorable gross profit rates.\n \nOur non-GAAP effective tax rate increased in the second quarter of fiscal 2024, primarily due to the prior year resolution of certain discrete tax matters. Our non-\nGAAP effective tax rate increased in the first six months of fiscal 2024, primarily due to the prior year resolution of certain discrete tax matters and decreased tax \nbenefits from stock-based compensation, partially offset by the impact of lower pre-tax earnings.\n \nOur non-GAAP diluted EPS decreased in the second quarter and first six months of fiscal 2024, primarily due to the decreases in non-GAAP operating income.\n \nLiquidity and Capital Resources\n \nWe closely manage our liquidity and capital resources. Our liquidity requirements depend on key variables, including the level of investment required to support \nour business strategies, the performance of our business, capital expenditures, dividends, credit facilities, short-term borrowing arrangements and working capital \nmanagement. We modify our approach to managing these variables as changes in our operating environment arise. For example, capital expenditures and share \nrepurchases are a component of our cash flow and capital management strategy, which, to a large extent, we can adjust in response to economic and other \nchanges in our business environment. We have a disciplined approach to capital allocation, which focuses on investing in key priorities that support our strategy.\n \nCash and cash equivalents were as follows ($ in millions):\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nJuly 29, 2023\n \nJanuary 28, 2023\n \nJuly 30, 2022\nCash and cash equivalents\n \n $\n 1,093 $\n 1,874 $\n 840 \n \nThe decrease in cash and cash equivalents from January 28, 2023, was primarily due to the timing and volume of inventory purchases and payments, dividend \npayments and capital expenditures, partially offset by earnings. \n \n20\n"
+      }
+    ],
+    "gics_sector": "Consumer Discretionary",
+    "doc_type": "10q",
+    "doc_period": 2024,
+    "doc_link": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000764478/5e179976-086d-4c3c-af0c-85fda4b35b9d.pdf",
+    "evidence_pages": [
+      {
+        "doc_name": "BBY_2024Q2_10Q",
+        "page_num": 19
+      }
+    ]
+  },
+  {
+    "financebench_id": "financebench_id_00460",
+    "company": "Best Buy",
+    "doc_name": "BESTBUY_2024Q2_10Q",
+    "question_type": "novel-generated",
+    "question_reasoning": null,
+    "domain_question_num": null,
+    "question": "Was there any change in the number of Best Buy stores between Q2 of FY2024 and FY2023?",
+    "answer": "Yes, there is decline in number stores by 1.32% from 982 stores in Q2 FY 2023 to 969 by the end of Q2 FY2024.",
+    "justification": "969/982-1",
+    "dataset_subset_label": "OPEN_SOURCE",
+    "evidence": [
+      {
+        "evidence_text": "iscal 2024 was primarily driven by comparable sales declines in appliances, home theater, \ncomputing and mobile phones, partially offset by comparable sales growth in gaming. Online revenue of $2.8 billion and $5.5 billion in the second quarter and \nfirst six months of fiscal 2024 decreased 7.1% and 9.7% on a comparable basis, respectively. These decreases in revenue were primarily due to the reasons \ndescribed above and within the Consolidated Results section, above.\n \nDomestic segment stores open at the beginning and end of the second quarters of fiscal 2024 and fiscal 2023 were as follows:\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nFiscal 2024\n \nFiscal 2023\n \nTotal Stores at \nBeginning of \nSecond Quarter \nStores \nOpened\n \nStores \nClosed\n \nTotal Stores at \nEnd of Second \nQuarter\n \nTotal Stores at \nBeginning of \nSecond Quarter \nStores \nOpened\n \nStores \nClosed\n \nTotal Stores at \nEnd of Second \nQuarter\nBest Buy\n \n 908 \n - \n (1) \n 907 \n 931 \n 1 \n (2) \n 930 \nOutlet Centers\n \n 20 \n 1 \n (1) \n 20 \n 16 \n 2 \n - \n 18 \nPacific Sales\n \n 20 \n - \n - \n 20 \n 21 \n - \n - \n 21 \nYardbird\n \n 18 \n 4 \n - \n 22 \n 9 \n 4 \n - \n 13 \nTotal\n \n 966 \n 5 \n (2) \n 969 \n 977 \n 7 \n (2) \n 982",
+        "doc_name": "BESTBUY_2024Q2_10Q",
+        "evidence_page_num": 16,
+        "evidence_text_full_page": " \nTable of Contents\n \nSegment Performance Summary\n \nDomestic Segment\n \nSelected financial data for the Domestic segment was as follows ($ in millions):\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nThree Months Ended\n \nSix Months Ended\n \nJuly 29, 2023\n \nJuly 30, 2022\n \nJuly 29, 2023\n \nJuly 30, 2022\nRevenue\n$\n 8,890 \n $\n 9,569 \n $\n 17,691 \n $\n 19,463 \nRevenue % change\n \n (7.1)% \n (13.1)% \n (9.1)% \n (10.9)%\nComparable sales % change(1)\n \n (6.3)% \n (12.7)% \n (8.4)% \n (10.6)%\nGross profit\n$\n 2,052 \n $\n 2,109 \n $\n 4,044 \n $\n 4,279 \nGross profit as a % of revenue\n \n 23.1 % \n 22.0 % \n 22.9 % \n 22.0 %\nSG&A\n$\n 1,730 \n $\n 1,732 \n $\n 3,440 \n $\n 3,473 \nSG&A as a % of revenue\n \n 19.5 % \n 18.1 % \n 19.4 % \n 17.8 %\nRestructuring charges\n$\n (7) \n $\n 34 \n $\n (15) \n $\n 34 \nOperating income\n$\n 329 \n $\n 343 \n $\n 619 \n $\n 772 \nOperating income as a % of revenue\n \n 3.7 % \n 3.6 % \n 3.5 % \n 4.0 %\nSelected Online Revenue Data\n \n \n \n \n \n \n \n \nTotal online revenue\n$\n 2,763 \n $\n 2,975 \n $\n 5,451 \n $\n 6,034 \nOnline revenue as a % of total segment revenue\n \n 31.1 % \n 31.0 % \n 30.8 % \n 31.0 %\nComparable online sales % change(1)\n \n (7.1)% \n (14.7)% \n (9.7)% \n (14.8)%\n(1)\nComparable online sales are included in the comparable sales calculation.\n \nThe decrease in revenue in the second quarter and first six months of fiscal 2024 was primarily driven by comparable sales declines in appliances, home theater, \ncomputing and mobile phones, partially offset by comparable sales growth in gaming. Online revenue of $2.8 billion and $5.5 billion in the second quarter and \nfirst six months of fiscal 2024 decreased 7.1% and 9.7% on a comparable basis, respectively. These decreases in revenue were primarily due to the reasons \ndescribed above and within the Consolidated Results section, above.\n \nDomestic segment stores open at the beginning and end of the second quarters of fiscal 2024 and fiscal 2023 were as follows:\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nFiscal 2024\n \nFiscal 2023\n \nTotal Stores at \nBeginning of \nSecond Quarter \nStores \nOpened\n \nStores \nClosed\n \nTotal Stores at \nEnd of Second \nQuarter\n \nTotal Stores at \nBeginning of \nSecond Quarter \nStores \nOpened\n \nStores \nClosed\n \nTotal Stores at \nEnd of Second \nQuarter\nBest Buy\n \n 908 \n - \n (1) \n 907 \n 931 \n 1 \n (2) \n 930 \nOutlet Centers\n \n 20 \n 1 \n (1) \n 20 \n 16 \n 2 \n - \n 18 \nPacific Sales\n \n 20 \n - \n - \n 20 \n 21 \n - \n - \n 21 \nYardbird\n \n 18 \n 4 \n - \n 22 \n 9 \n 4 \n - \n 13 \nTotal\n \n 966 \n 5 \n (2) \n 969 \n 977 \n 7 \n (2) \n 982 \n \nWe continuously monitor store performance as part of a market-driven, omnichannel strategy. As we approach the expiration of leases, we evaluate various \noptions for each location, including whether a store should remain open. We currently expect to close a total of 20 to 30 Best Buy stores and open approximately \n5 Outlet Centers in fiscal 2024.\n \nDomestic segment revenue mix percentages and comparable sales percentage changes by revenue category were as follows:\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nRevenue Mix\n \n \n \nComparable Sales\n \n \n \nThree Months Ended\n \n \n \nThree Months Ended\n \n \nJuly 29, 2023\n \nJuly 30, 2022\n \nJuly 29, 2023\n \nJuly 30, 2022\nComputing and Mobile Phones\n \n 41 % \n \n 42 % \n \n (6.4)% \n \n (16.6)%\nConsumer Electronics\n \n 30 % \n \n 30 % \n \n (5.7)% \n \n (14.7)%\nAppliances\n \n 16 % \n \n 17 % \n \n (16.1)% \n \n (1.2)%\nEntertainment\n \n 6 % \n \n 5 % \n \n 9.0 % \n \n (9.2)%\nServices\n \n 6 % \n \n 5 % \n \n 7.6 % \n \n (8.5)%\nOther\n \n 1 % \n \n 1 % \n \n 2.4 % \n \n 15.6 \nTotal\n \n 100 % \n \n 100 % \n \n (6.3)% \n \n (12.7)%\n \n17\n"
+      }
+    ],
+    "gics_sector": "Consumer Discretionary",
+    "doc_type": "10q",
+    "doc_period": 2024,
+    "doc_link": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000764478/5e179976-086d-4c3c-af0c-85fda4b35b9d.pdf",
+    "evidence_pages": [
+      {
+        "doc_name": "BBY_2024Q2_10Q",
+        "page_num": 16
+      }
+    ]
+  },
+  {
+    "financebench_id": "financebench_id_01902",
+    "company": "Best Buy",
+    "doc_name": "BESTBUY_2024Q2_10Q",
+    "question_type": "novel-generated",
+    "question_reasoning": null,
+    "domain_question_num": null,
+    "question": "Which Best Buy product category performed the best (by top line) in the domestic (USA) Market during Q2 of FY2024?",
+    "answer": "The entertainment segment experienced the highest growth of 9% during Q2 FY2024, primarily from gaming division.",
+    "justification": null,
+    "dataset_subset_label": "OPEN_SOURCE",
+    "evidence": [
+      {
+        "evidence_text": "Computing and Mobile Phones: The 6.4% comparable sales decline was driven primarily by computing, mobile phones and tablets.\n\nConsumer Electronics: The 5.7% comparable sales decline was driven primarily by home theater, partially offset by comparable sales growth in \nheadphones and portable speakers. \n\nAppliances: The 16.1% comparable sales decline was driven primarily by large appliances.\n\nEntertainment: The 9.0% comparable sales growth was driven primarily by gaming, partially offset by comparable sales declines in virtual reality and \ndrones.\n\nServices: The 7.6% comparable sales growth was driven primarily by the cumulative growth in our paid membership base",
+        "doc_name": "BESTBUY_2024Q2_10Q",
+        "evidence_page_num": 17,
+        "evidence_text_full_page": " \nTable of Contents\n \nNotable comparable sales changes by revenue category were as follows:\n \n\nComputing and Mobile Phones: The 6.4% comparable sales decline was driven primarily by computing, mobile phones and tablets.\n\nConsumer Electronics: The 5.7% comparable sales decline was driven primarily by home theater, partially offset by comparable sales growth in \nheadphones and portable speakers. \n\nAppliances: The 16.1% comparable sales decline was driven primarily by large appliances.\n\nEntertainment: The 9.0% comparable sales growth was driven primarily by gaming, partially offset by comparable sales declines in virtual reality and \ndrones.\n\nServices: The 7.6% comparable sales growth was driven primarily by the cumulative growth in our paid membership base.\n \nOur gross profit rate increased in the second quarter of fiscal 2024, primarily due to favorable product margin rates, improved financial performance from our \nmembership offerings, which included higher services margin rates and reduced costs associated with program changes made to our free membership offering, \nand an improved gross profit rate from our Health initiatives.\n \nOur gross profit rate increased in the first six months of fiscal 2024, primarily due to improved financial performance from our membership offerings, which \nincluded higher services margin rates and reduced costs associated with program changes made to our free membership offering, favorable product margin \nrates, the profit-sharing revenue from our private label and co-branded credit card arrangement and an improved gross profit rate from our Health initiatives.\n \nOur profit-sharing revenue from our credit card arrangement has been a consistent benefit to our gross profit and operating income rates for the past nine \nquarters and approximated 1.4% of Domestic revenue in fiscal 2023, an increase of approximately 50 basis points compared to fiscal 2020. This growth has \nbeen driven by the increased usage of our credit card, both at and outside of Best Buy, and the favorable credit environment. For fiscal 2024, we expect this \nprofit-sharing revenue to have a relatively neutral impact to our annual gross profit rate compared to last year, as the benefit from the first half of the year is \nexpected to turn to a slight pressure in the second half of the year.\n \nOur SG&A in the second quarter of fiscal 2024 was approximately flat to last year, as higher incentive compensation was primarily offset by lower store payroll \nexpense.\n \nOur SG&A in the first six months of fiscal 2024 decreased primarily due to lower store payroll expense, partially offset by higher incentive compensation expense. \n \nThe reduction in restructuring charges in the second quarter and first six months of fiscal 2024 was primarily related to higher-than-expected employee retention \nfrom our fiscal 2023 resource optimization initiative. Refer to Note 2, Restructuring, of the Notes to Condensed Consolidated Financial Statements, included in \nthis Quarterly Report on Form 10-Q for additional information.\n \nOur operating income rate increased in the second quarter of fiscal 2024, due to an increase in gross profit rate and lower restructuring charges, partially offset \nby an unfavorable SG&A rate. \n \nOur operating income rate decreased in the six months of fiscal 2024, primarily due to decreased leverage from lower sales volume on our fixed expenses and \nhigher incentive compensation expense, which resulted in an unfavorable SG&A rate, partially offset by favorability in gross profit rate.\n \nInternational Segment\n \nSelected financial data for the International segment was as follows ($ in millions):\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nThree Months Ended\n \nSix Months Ended\n \nJuly 29, 2023\n \nJuly 30, 2022\n \nJuly 29, 2023\n \nJuly 30, 2022\nRevenue\n$\n 693 \n $\n 760 \n $\n 1,359 \n $\n 1,513 \nRevenue % change\n \n (8.8)% \n (9.3)% \n (10.2)% \n (7.4)%\nComparable sales % change\n \n (5.4)% \n (4.2)% \n (5.5)% \n (2.8)%\nGross profit\n$\n 168 \n $\n 178 \n $\n 326 \n $\n 361 \nGross profit as a % of revenue\n \n 24.2 % \n 23.4 % \n 24.0 % \n 23.9 %\nSG&A\n$\n 149 \n $\n 150 \n $\n 287 \n $\n 299 \nSG&A as a % of revenue\n \n 21.5 % \n 19.7 % \n 21.1 % \n 19.8 %\nRestructuring charges\n$\n - \n $\n - \n $\n (1) \n $\n 1 \nOperating income\n$\n 19 \n $\n 28 \n $\n 40 \n $\n 61 \nOperating income as a % of revenue\n \n 2.7 % \n 3.7 % \n 2.9 % \n 4.0 %\n \nThe decreases in revenue in the second quarter and first six months of fiscal 2024 were primarily driven by comparable sales declines of 5.4% and 5.5%, \nrespectively, and the negative impact from unfavorable foreign currency exchange rates. \n \n18\n"
+      }
+    ],
+    "gics_sector": "Consumer Discretionary",
+    "doc_type": "10q",
+    "doc_period": 2024,
+    "doc_link": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000764478/5e179976-086d-4c3c-af0c-85fda4b35b9d.pdf",
+    "evidence_pages": [
+      {
+        "doc_name": "BBY_2024Q2_10Q",
+        "page_num": 17
+      }
+    ]
+  },
+  {
+    "financebench_id": "financebench_id_00407",
+    "company": "MGM Resorts",
+    "doc_name": "MGMRESORTS_2023Q2_10Q",
+    "question_type": "novel-generated",
+    "question_reasoning": null,
+    "domain_question_num": null,
+    "question": "Which type of debt received the largest investment among the short term investments for MGM in H1 FY2023?",
+    "answer": "the biggest short term investment is in corporate bonds (almost 82% of the total investment)",
+    "justification": "416420/509921",
+    "dataset_subset_label": "OPEN_SOURCE",
+    "evidence": [
+      {
+        "evidence_text": "Fair value level\nJune 30, 2023\nDecember 31, 2022\n(In thousands)\nCash and cash equivalents:\nMoney market funds\nLevel 1\n$\n2,195 \n$\n12,009 \nCommercial paper and certificates of deposit\nLevel 2\n \n5,992 \nCash and cash equivalents\n2,195 \n18,001 \nShort-term investments:\nU.S. government securities\nLevel 1\n57,696 \n56,835 \nU.S. agency securities\nLevel 2\n29,049 \n9,530 \nCommercial paper and certificates of deposit\nLevel 2\n4,561 \n4,466 \nCorporate bonds\nLevel 2\n416,420 \n213,875 \nShort-term investments\n507,726 \n284,706 \nTotal debt investments\n$\n509,921 \n$\n302,707",
+        "doc_name": "MGMRESORTS_2023Q2_10Q",
+        "evidence_page_num": 10,
+        "evidence_text_full_page": "The following tables present information regarding the Companys debt investments:\nFair value level\nJune 30, 2023\nDecember 31, 2022\n(In thousands)\nCash and cash equivalents:\nMoney market funds\nLevel 1\n$\n2,195 \n$\n12,009 \nCommercial paper and certificates of deposit\nLevel 2\n \n5,992 \nCash and cash equivalents\n2,195 \n18,001 \nShort-term investments:\nU.S. government securities\nLevel 1\n57,696 \n56,835 \nU.S. agency securities\nLevel 2\n29,049 \n9,530 \nCommercial paper and certificates of deposit\nLevel 2\n4,561 \n4,466 \nCorporate bonds\nLevel 2\n416,420 \n213,875 \nShort-term investments\n507,726 \n284,706 \nTotal debt investments\n$\n509,921 \n$\n302,707 \nRestricted cash. MGM Chinas pledged cash of $87 million and $124 million as of June 30, 2023 and December 31, 2022, respectively, securing the\nbank guarantees discussed in Note 9 is restricted in use and classified within Other long-term assets, net. Such amounts plus Cash and cash equivalents on\nthe consolidated balance sheets equal Cash, cash equivalents, and restricted cash on the consolidated statements of cash flows as of June 30, 2023 and\nDecember 31, 2022.\nAccounts receivable. As of June 30, 2023 and December 31, 2022, the loss reserve on accounts receivable was $129 million and $113 million,\nrespectively.\nNote receivable. In February 2023, the secured note receivable related to the sale of Circus Circus Las Vegas and the adjacent land was repaid, prior to\nmaturity, for $170 million, which approximated its carrying value on the date of repayment. As of December 31, 2022, the carrying value of the note receivable\nwas $167 million and was recorded within Other long-term assets, net on the consolidated balance sheets.\nAccounts payable. As of June 30, 2023 and December 31, 2022, the Company had accrued $60 million and $80 million, respectively, for purchases of\nproperty and equipment within Accounts and construction payable on the consolidated balance sheets.\nRevenue recognition. Contract and Contract-Related Liabilities. There may be a difference between the timing of cash receipts from the customer and\nthe recognition of revenue, resulting in a contract or contract-related liability. The Company generally has three types of liabilities related to contracts with\ncustomers: (1) outstanding chip liability, which represents the amounts owed in exchange for gaming chips held by a customer, (2) loyalty program obligations,\nwhich represents the deferred allocation of revenue relating to loyalty program incentives earned, and (3) customer advances and other, which is primarily\nfunds deposited by customers before gaming play occurs (casino front money) and advance payments on goods and services yet to be provided, such as\nadvance ticket sales and deposits on rooms and convention space or for unpaid wagers. These liabilities are generally expected to be recognized as revenue\nwithin one year of being purchased, earned, or deposited and are recorded within Other accrued liabilities on the consolidated balance sheets.\nThe following table summarizes the activity related to contract and contract-related liabilities:\n \nOutstanding Chip Liability\nLoyalty Program\nCustomer Advances and Other\n \n2023\n \n2022\n2023\n \n2022\n2023\n \n2022\n \n(In thousands)\nBalance at January 1\n$\n185,669 \n$\n176,219 \n$\n183,602 \n$\n144,465 \n$\n816,376 \n$\n640,001 \nBalance at June 30\n196,446 \n165,564 \n194,570 \n160,752 \n806,072 \n704,404 \nIncrease / (decrease)\n$\n10,777 \n$\n(10,655)\n$\n10,968 \n$\n16,287 \n$\n(10,304)\n$\n64,403 \n9\n"
+      }
+    ],
+    "gics_sector": "Consumer Discretionary",
+    "doc_type": "10q",
+    "doc_period": 2023,
+    "doc_link": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000789570/e20e899f-c320-44ee-b5f9-c219e4585f49.pdf",
+    "evidence_pages": [
+      {
+        "doc_name": "MGM_2023Q2_10Q",
+        "page_num": 10
+      }
+    ]
+  },
+  {
+    "financebench_id": "financebench_id_00552",
+    "company": "Microsoft",
+    "doc_name": "MICROSOFT_2023_10K",
+    "question_type": "domain-relevant",
+    "question_reasoning": "Numerical reasoning",
+    "domain_question_num": "dg22",
+    "question": "Has Microsoft increased its debt on balance sheet between FY2023 and the FY2022 period?",
+    "answer": "No. Microsoft decreased its debt by $2.5bn in FY 2023 vs FY 2022.",
+    "justification": "Current portion of long-term debt+Long-term debt\n5247+41990\n2749+47032",
+    "dataset_subset_label": "OPEN_SOURCE",
+    "evidence": [
+      {
+        "evidence_text": "BALANCE SHEETS \n \n(In millions)\n \n \n \n \n \n \n \n \n \nJune 30,\n \n2023 \n2022 \n \n \n \nAssets\n \n \n \nCurrent assets:\n \n \n \nCash and cash equivalents\n $\n34,704 $\n13,931 \nShort-term investments\n \n76,558 \n90,826 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nTotal cash, cash equivalents, and short-term investments\n \n111,262 \n104,757 \nAccounts receivable, net of allowance for doubtful accounts of $650 and $633\n \n48,688 \n44,261 \nInventories\n \n2,500 \n3,742 \nOther current assets\n \n21,807 \n16,924 \n \n \n \n \n \n \n \n \n \n \n \n \nTotal current assets\n \n184,257 \n169,684 \nProperty and equipment, net of accumulated depreciation of $68,251 and $59,660\n \n95,641 \n74,398 \nOperating lease right-of-use assets\n \n14,346 \n13,148 \nEquity investments\n \n9,879 \n6,891 \nGoodwill\n \n67,886 \n67,524 \nIntangible assets, net\n \n9,366 \n11,298 \nOther long-term assets\n \n30,601 \n21,897 \n \n \n \n \n \n \n \n \n \n \n \n \nTotal assets\n $\n411,976 $\n364,840 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nLiabilities and stockholders equity\n \n \n \nCurrent liabilities:\n \n \n \nAccounts payable\n $\n18,095 $\n19,000 \nCurrent portion of long-term debt\n \n5,247 \n2,749 \nAccrued compensation\n \n11,009 \n10,661 \nShort-term income taxes\n \n4,152 \n4,067 \nShort-term unearned revenue\n \n50,901 \n45,538 \nOther current liabilities\n \n14,745 \n13,067 \n \n \n \n \n \n \n \n \n \n \n \n \nTotal current liabilities\n \n104,149 \n95,082 \nLong-term debt\n \n41,990 \n47,032 \nLong-term income taxes\n \n25,560 \n26,069 \nLong-term unearned revenue\n \n2,912 \n2,870 \nDeferred income taxes\n \n433 \n230 \nOperating lease liabilities\n \n12,728 \n11,489 \nOther long-term liabilities\n \n17,981 \n15,526 \n \n \n \n \n \n \n \n \n \n \n \n \nTotal liabilities\n \n205,753 \n198,298 \n \n \n \n \n \n \n \n \n \n \n \n \nCommitments and contingencies\n \n \n \nStockholders equity:\n \n \n \nCommon stock and paid-in capital shares authorized 24,000; outstanding 7,432 and 7,464\n \n93,718 \n86,939 \nRetained earnings\n \n118,848 \n84,281 \nAccumulated other comprehensive loss\n \n(6,343) \n(4,678)\n \n \n \n \n \n \n \n \n \n \n \n \nTotal stockholders equity\n \n206,223 \n166,542 \n \n \n \n \n \n \n \n \n \n \n \n \nTotal liabilities and stockholders equity\n $\n411,976 $\n364,8",
+        "doc_name": "MICROSOFT_2023_10K",
+        "evidence_page_num": 59,
+        "evidence_text_full_page": "PART II\nItem 8\n \nBALANCE SHEETS \n \n(In millions)\n \n \n \n \n \n \n \n \n \nJune 30,\n \n2023 \n2022 \n \n \n \nAssets\n \n \n \nCurrent assets:\n \n \n \nCash and cash equivalents\n $\n34,704 $\n13,931 \nShort-term investments\n \n76,558 \n90,826 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nTotal cash, cash equivalents, and short-term investments\n \n111,262 \n104,757 \nAccounts receivable, net of allowance for doubtful accounts of $650 and $633\n \n48,688 \n44,261 \nInventories\n \n2,500 \n3,742 \nOther current assets\n \n21,807 \n16,924 \n \n \n \n \n \n \n \n \n \n \n \n \nTotal current assets\n \n184,257 \n169,684 \nProperty and equipment, net of accumulated depreciation of $68,251 and $59,660\n \n95,641 \n74,398 \nOperating lease right-of-use assets\n \n14,346 \n13,148 \nEquity investments\n \n9,879 \n6,891 \nGoodwill\n \n67,886 \n67,524 \nIntangible assets, net\n \n9,366 \n11,298 \nOther long-term assets\n \n30,601 \n21,897 \n \n \n \n \n \n \n \n \n \n \n \n \nTotal assets\n $\n411,976 $\n364,840 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nLiabilities and stockholders equity\n \n \n \nCurrent liabilities:\n \n \n \nAccounts payable\n $\n18,095 $\n19,000 \nCurrent portion of long-term debt\n \n5,247 \n2,749 \nAccrued compensation\n \n11,009 \n10,661 \nShort-term income taxes\n \n4,152 \n4,067 \nShort-term unearned revenue\n \n50,901 \n45,538 \nOther current liabilities\n \n14,745 \n13,067 \n \n \n \n \n \n \n \n \n \n \n \n \nTotal current liabilities\n \n104,149 \n95,082 \nLong-term debt\n \n41,990 \n47,032 \nLong-term income taxes\n \n25,560 \n26,069 \nLong-term unearned revenue\n \n2,912 \n2,870 \nDeferred income taxes\n \n433 \n230 \nOperating lease liabilities\n \n12,728 \n11,489 \nOther long-term liabilities\n \n17,981 \n15,526 \n \n \n \n \n \n \n \n \n \n \n \n \nTotal liabilities\n \n205,753 \n198,298 \n \n \n \n \n \n \n \n \n \n \n \n \nCommitments and contingencies\n \n \n \nStockholders equity:\n \n \n \nCommon stock and paid-in capital shares authorized 24,000; outstanding 7,432 and 7,464\n \n93,718 \n86,939 \nRetained earnings\n \n118,848 \n84,281 \nAccumulated other comprehensive loss\n \n(6,343) \n(4,678)\n \n \n \n \n \n \n \n \n \n \n \n \nTotal stockholders equity\n \n206,223 \n166,542 \n \n \n \n \n \n \n \n \n \n \n \n \nTotal liabilities and stockholders equity\n $\n411,976 $\n364,840 \n \n \n \n \n \n \n \n \n \n \nRefer to accompanying notes. \n60\n"
+      }
+    ],
+    "gics_sector": "Information Technology",
+    "doc_type": "10k",
+    "doc_period": 2023,
+    "doc_link": "https://microsoft.gcs-web.com/static-files/e2931fdb-9823-4130-b2a8-f6b8db0b15a9",
+    "evidence_pages": [
+      {
+        "doc_name": "MSFT_2023_10K",
+        "page_num": 59
+      }
+    ]
+  },
+  {
+    "financebench_id": "financebench_id_04458",
+    "company": "Netflix",
+    "doc_name": "NETFLIX_2015_10K",
+    "question_type": "metrics-generated",
+    "question_reasoning": "Numerical reasoning",
+    "domain_question_num": null,
+    "question": "We want to calculate a financial metric. Please help us compute it by basing your answers off of the statement of income and the statement of cash flows. Here's the question: what is the FY2015 unadjusted EBITDA % margin for Netflix? Calculate unadjusted EBITDA using unadjusted operating income and D&A (from cash flow statement).",
+    "answer": "5.4%",
+    "justification": "The metric in question was calculated using other simpler metrics. The various simpler metrics (from the current and, if relevant, previous fiscal year(s)) used were:\n\nMetric 1: Depreciation and amortization. This metric was located in the 10K as a single line item named: Depreciation and amortization of property, equipment and intangibles.\n\nMetric 2: Unadjusted operating income. This metric was located in the 10K as a single line item named: Operating income.\n\nMetric 3: Total revenue. This metric was located in the 10K as a single line item named: Revenues.",
+    "dataset_subset_label": "OPEN_SOURCE",
+    "evidence": [
+      {
+        "evidence_text": "Table of Contents\nNETFLIX, INC.\nCONSOLIDATED STATEMENTS OF OPERATIONS\n(in thousands, except per share data)\n \n \n \nYear ended December 31,\n \n \n2015\n \n2014\n \n2013\nRevenues\n $\n6,779,511 $\n5,504,656 $\n4,374,562\nCost of revenues\n \n4,591,476 \n3,752,760 \n3,117,203\nMarketing\n \n824,092 \n607,186 \n469,942\nTechnology and development\n \n650,788 \n472,321 \n378,769\nGeneral and administrative\n \n407,329 \n269,741 \n180,301\nOperating income\n \n305,826 \n402,648 \n228,347\nOther income (expense):\n \n \n \nInterest expense\n \n(132,716) \n(50,219) \n(29,142)\nInterest and other income (expense)\n \n(31,225) \n(3,060) \n(3,002)\nLoss on extinguishment of debt\n \n \n \n(25,129)\nIncome before income taxes\n \n141,885 \n349,369 \n171,074\nProvision for income taxes\n \n19,244 \n82,570 \n58,671\nNet income\n $\n122,641 $\n266,799 $\n112,403\nEarnings per share:\n \n \n \nBasic\n $\n0.29 $\n0.63 $\n0.28\nDiluted\n $\n0.28 $\n0.62 $\n0.26\nWeighted-average common shares outstanding:\n \n \n \nBasic\n \n425,889 \n420,544 \n407,385\nDiluted\n \n436,456 \n431,894 \n425,327\nSee accompanying notes to consolidated financial statements.\n38",
+        "doc_name": "NETFLIX_2015_10K",
+        "evidence_page_num": 39,
+        "evidence_text_full_page": "Table of Contents\nNETFLIX, INC.\nCONSOLIDATED STATEMENTS OF OPERATIONS\n(in thousands, except per share data)\n \n \n \nYear ended December 31,\n \n \n2015\n \n2014\n \n2013\nRevenues\n $\n6,779,511 $\n5,504,656 $\n4,374,562\nCost of revenues\n \n4,591,476 \n3,752,760 \n3,117,203\nMarketing\n \n824,092 \n607,186 \n469,942\nTechnology and development\n \n650,788 \n472,321 \n378,769\nGeneral and administrative\n \n407,329 \n269,741 \n180,301\nOperating income\n \n305,826 \n402,648 \n228,347\nOther income (expense):\n \n \n \nInterest expense\n \n(132,716) \n(50,219) \n(29,142)\nInterest and other income (expense)\n \n(31,225) \n(3,060) \n(3,002)\nLoss on extinguishment of debt\n \n \n \n(25,129)\nIncome before income taxes\n \n141,885 \n349,369 \n171,074\nProvision for income taxes\n \n19,244 \n82,570 \n58,671\nNet income\n $\n122,641 $\n266,799 $\n112,403\nEarnings per share:\n \n \n \nBasic\n $\n0.29 $\n0.63 $\n0.28\nDiluted\n $\n0.28 $\n0.62 $\n0.26\nWeighted-average common shares outstanding:\n \n \n \nBasic\n \n425,889 \n420,544 \n407,385\nDiluted\n \n436,456 \n431,894 \n425,327\nSee accompanying notes to consolidated financial statements.\n38\n"
+      },
+      {
+        "evidence_text": "Table of Contents\nNETFLIX, INC.\nCONSOLIDATED STATEMENTS OF CASH FLOWS\n(in thousands)\n \n \nYear Ended December 31,\n \n \n2015\n \n2014\n \n2013\nCash flows from operating activities:\n \n \n \nNet income\n $\n122,641 $\n266,799 $\n112,403\nAdjustments to reconcile net income to net cash (used in) provided by operating activities:\n \n \n \nAdditions to streaming content assets\n \n(5,771,652) \n(3,773,019) \n(3,030,701)\nChange in streaming content liabilities\n \n1,162,413 \n593,125 \n673,785\nAmortization of streaming content assets\n \n3,405,382 \n2,656,279 \n2,121,981\nAmortization of DVD content assets\n \n79,380 \n71,491 \n71,325\nDepreciation and amortization of property, equipment and intangibles\n \n62,283 \n54,028 \n48,374\nStock-based compensation expense\n \n124,725 \n115,239 \n73,100\nExcess tax benefits from stock-based compensation\n \n(80,471) \n(89,341) \n(81,663)\nOther non-cash items\n \n31,628 \n15,282 \n5,332\nLoss on extinguishment of debt\n \n \n \n25,129\nDeferred taxes\n \n(58,655) \n(30,063) \n(22,044)\nChanges in operating assets and liabilities:\n \n \n \nOther current assets\n \n18,693 \n(9,198) \n43,177\nAccounts payable\n \n51,615 \n83,812 \n18,374\nAccrued expenses\n \n48,810 \n55,636 \n1,941\nDeferred revenue\n \n72,135 \n58,819 \n46,295\nOther non-current assets and liabilities\n \n(18,366) \n(52,406) \n(8,977)\nNet cash (used in) provided by operating activities\n \n(749,439) \n16,483 \n97,831\nCash flows from investing activities:\n \n \n \nAcquisition of DVD content assets\n \n(77,958) \n(74,790) \n(65,927)\nPurchases of property and equipment\n \n(91,248) \n(69,726) \n(54,143)\nOther assets\n \n(1,912) \n1,334 \n5,939\nPurchases of short-term investments\n \n(371,915) \n(426,934) \n(550,264)\nProceeds from sale of short-term investments\n \n259,079 \n385,300 \n347,502\nProceeds from maturities of short-term investments\n \n104,762 \n141,950 \n60,925\nNet cash used in investing activities\n \n(179,192) \n(42,866) \n(255,968)\nCash flows from financing activities:\n \n \n \nProceeds from issuance of common stock\n \n77,980 \n60,544 \n124,557\nProceeds from issuance of debt\n \n1,500,000 \n400,000 \n500,000\nIssuance costs\n \n(17,629) \n(7,080) \n(9,414)\nRedemption of debt\n \n \n \n(219,362)\nExcess tax benefits from stock-based compensation\n \n80,471 \n89,341 \n81,663\nPrincipal payments of lease financing obligations\n \n(545) \n(1,093) \n(1,180)\nNet cash provided by financing activities\n \n1,640,277 \n541,712 \n476,264\nEffect of exchange rate changes on cash and cash equivalents\n \n(15,924) \n(6,686) \n(3,453)\nNet increase in cash and cash equivalents\n \n695,722 \n508,643 \n314,674\nCash and cash equivalents, beginning of year\n \n1,113,608 \n604,965 \n290,291\nCash and cash equivalents, end of year\n $\n1,809,330 $\n1,113,608 $\n604,965\nSupplemental disclosure:\n \n \n \nIncome taxes paid\n $\n27,658 $\n50,573 $\n7,465\nInterest paid\n \n111,761 \n41,085 \n19,114\nInvesting activities included in liabilities\n \n18,824 \n23,802 \n11,508\nSee accompanying notes to consolidated financial statements.\n40",
+        "doc_name": "NETFLIX_2015_10K",
+        "evidence_page_num": 41,
+        "evidence_text_full_page": "Table of Contents\nNETFLIX, INC.\nCONSOLIDATED STATEMENTS OF CASH FLOWS\n(in thousands)\n \n \nYear Ended December 31,\n \n \n2015\n \n2014\n \n2013\nCash flows from operating activities:\n \n \n \nNet income\n $\n122,641 $\n266,799 $\n112,403\nAdjustments to reconcile net income to net cash (used in) provided by operating activities:\n \n \n \nAdditions to streaming content assets\n \n(5,771,652) \n(3,773,019) \n(3,030,701)\nChange in streaming content liabilities\n \n1,162,413 \n593,125 \n673,785\nAmortization of streaming content assets\n \n3,405,382 \n2,656,279 \n2,121,981\nAmortization of DVD content assets\n \n79,380 \n71,491 \n71,325\nDepreciation and amortization of property, equipment and intangibles\n \n62,283 \n54,028 \n48,374\nStock-based compensation expense\n \n124,725 \n115,239 \n73,100\nExcess tax benefits from stock-based compensation\n \n(80,471) \n(89,341) \n(81,663)\nOther non-cash items\n \n31,628 \n15,282 \n5,332\nLoss on extinguishment of debt\n \n \n \n25,129\nDeferred taxes\n \n(58,655) \n(30,063) \n(22,044)\nChanges in operating assets and liabilities:\n \n \n \nOther current assets\n \n18,693 \n(9,198) \n43,177\nAccounts payable\n \n51,615 \n83,812 \n18,374\nAccrued expenses\n \n48,810 \n55,636 \n1,941\nDeferred revenue\n \n72,135 \n58,819 \n46,295\nOther non-current assets and liabilities\n \n(18,366) \n(52,406) \n(8,977)\nNet cash (used in) provided by operating activities\n \n(749,439) \n16,483 \n97,831\nCash flows from investing activities:\n \n \n \nAcquisition of DVD content assets\n \n(77,958) \n(74,790) \n(65,927)\nPurchases of property and equipment\n \n(91,248) \n(69,726) \n(54,143)\nOther assets\n \n(1,912) \n1,334 \n5,939\nPurchases of short-term investments\n \n(371,915) \n(426,934) \n(550,264)\nProceeds from sale of short-term investments\n \n259,079 \n385,300 \n347,502\nProceeds from maturities of short-term investments\n \n104,762 \n141,950 \n60,925\nNet cash used in investing activities\n \n(179,192) \n(42,866) \n(255,968)\nCash flows from financing activities:\n \n \n \nProceeds from issuance of common stock\n \n77,980 \n60,544 \n124,557\nProceeds from issuance of debt\n \n1,500,000 \n400,000 \n500,000\nIssuance costs\n \n(17,629) \n(7,080) \n(9,414)\nRedemption of debt\n \n \n \n(219,362)\nExcess tax benefits from stock-based compensation\n \n80,471 \n89,341 \n81,663\nPrincipal payments of lease financing obligations\n \n(545) \n(1,093) \n(1,180)\nNet cash provided by financing activities\n \n1,640,277 \n541,712 \n476,264\nEffect of exchange rate changes on cash and cash equivalents\n \n(15,924) \n(6,686) \n(3,453)\nNet increase in cash and cash equivalents\n \n695,722 \n508,643 \n314,674\nCash and cash equivalents, beginning of year\n \n1,113,608 \n604,965 \n290,291\nCash and cash equivalents, end of year\n $\n1,809,330 $\n1,113,608 $\n604,965\nSupplemental disclosure:\n \n \n \nIncome taxes paid\n $\n27,658 $\n50,573 $\n7,465\nInterest paid\n \n111,761 \n41,085 \n19,114\nInvesting activities included in liabilities\n \n18,824 \n23,802 \n11,508\nSee accompanying notes to consolidated financial statements.\n40\n"
+      }
+    ],
+    "gics_sector": "Communication Services",
+    "doc_type": "10k",
+    "doc_period": 2015,
+    "doc_link": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001065280/7c37ae9c-ace5-4ad5-ab02-6b5e82c5ff8f.pdf",
+    "evidence_pages": [
+      {
+        "doc_name": "NFLX_2015_10K",
+        "page_num": 39
+      },
+      {
+        "doc_name": "NFLX_2015_10K",
+        "page_num": 41
+      }
+    ]
+  },
+  {
+    "financebench_id": "financebench_id_00283",
+    "company": "Pfizer",
+    "doc_name": "Pfizer_2023Q2_10Q",
+    "question_type": "novel-generated",
+    "question_reasoning": null,
+    "domain_question_num": null,
+    "question": "How much does Pfizer expect to pay to spin off Upjohn in the future in USD million?",
+    "answer": "77.78",
+    "justification": "10% cost is remaining amount in the future. Calculation: 700/9 is 10% of the cost remaining",
+    "dataset_subset_label": "OPEN_SOURCE",
+    "evidence": [
+      {
+        "evidence_text": "We expect to incur costs of approximately $700 million in connection with separating Upjohn, of which approximately 90% has been incurred since inception\nand through the second quarter of 2023. These charges include costs and expenses related to separation of legal entities and transaction costs.",
+        "doc_name": "Pfizer_2023Q2_10Q",
+        "evidence_page_num": 40,
+        "evidence_text_full_page": "ITEM 2. MANAGEMENTS DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF\nOPERATIONS\nGENERAL\nThe following MD&A is intended to assist the reader in understanding our financial condition and results of operations, including an evaluation of the amounts\nand certainty of cash flows from operations and from outside sources, and is provided as a supplement to and should be read in conjunction with the condensed\nconsolidated financial statements and related notes in Item 1. Financial Statements in this Form 10-Q.\nReferences to operational variances pertain to period-over-period changes that exclude the impact of foreign exchange rates. Although foreign exchange rate\nchanges are part of our business, they are not within our control and because they can mask positive or negative trends in the business, we believe presenting\noperational variances excluding these foreign exchange changes provides useful information to evaluate our results.\nOVERVIEW OF OUR PERFORMANCE, OPERATING ENVIRONMENT, STRATEGY AND OUTLOOK\nOur Business and StrategyPfizer Inc. is a research-based, global biopharmaceutical company. We apply science and our global resources to bring therapies\nto people that extend and significantly improve their lives. In 2023, we are making additional investments in both R&D and SI&A to support Pfizers near- and\nlonger-term growth plans, including to support anticipated new launches, commercial launch of COVID-19 products, potential pipeline programs and recently\nacquired assets. We manage our commercial operations through a global structure consisting of two operating segments: Biopharma and Business Innovation.\nBiopharma is the only reportable segment. See Note 13A.\nWe expect to incur costs of approximately $700 million in connection with separating Upjohn, of which approximately 90% has been incurred since inception\nand through the second quarter of 2023. These charges include costs and expenses related to separation of legal entities and transaction costs.\nIn the fourth quarter of 2022, we began taking steps through our Transforming to a More Focused Company restructuring program to optimize our end-to-end\nR&D operations to reduce costs and cycle times as well as to further prioritize our internal R&D portfolio in areas where our capabilities are differentiated\nwhile increasing external innovation efforts to leverage an expanding and productive biotech sector. See Note 3. For a description of savings related to this\nprogram, see the Costs and ExpensesRestructuring Charges and Other Costs Associated with Acquisitions and Cost-Reduction/Productivity Initiatives\nsection within MD&A.\nIn July 2023, we announced that in consideration of planned future investments in oncology, including the proposed acquisition of Seagen, we are reorganizing\nhow our R&D operations are conducted. Beginning in July 2023, discovery to early- and late-phase clinical development for oncology will be performed by a\nnew end-to-end Oncology Research and Development platform function and discovery to early- and late-phase clinical development for all remaining\ntherapeutic areas will be consolidated in the Pfizer Research and Development platform function.\nFor additional information about our business, strategy and operating environment, see the Item 1. Business section and Overview of Our Performance,\nOperating Environment, Strategy and Outlook section within MD&A of our 2022 Form 10-K.\nOur Business Development InitiativesWe are committed to strategically capitalizing on growth opportunities, primarily by advancing our own product\npipeline and maximizing the value of our existing products, but also through various business development activities. Our significant recent business\ndevelopment activities include the transactions discussed in Notes 1A and 2, including the proposed acquisition of Seagen, as well as the following:\nProposed Divestiture of Early-Stage Rare Disease Gene Therapy PortfolioIn July 2023, we entered into an agreement with Alexion, a subsidiary of\nAstraZeneca plc, under which Alexion will purchase and license the assets of our early-stage rare disease gene therapy portfolio. This agreement is consistent\nwith our previously announced strategy to pivot from viral capsid-based gene therapy approaches to harnessing new platform technologies that we believe can\nhave a transformative impact on patients, such as mRNA or in vivo gene editing. Under the terms of the agreement, Alexion will pay us total consideration of\nup to $1 billion, plus tiered royalties based on annual net sales of the assets. The transaction is expected to close in the third quarter of 2023, subject to\ncustomary closing conditions.\nAgreement with Flagship Pioneering, Inc. (Flagship)In July 2023, we and Flagship announced that we have partnered to create a new pipeline of innovative\nmedicines. Under the terms of the novel agreement, we and Flagship will each invest $50 million upfront to explore opportunities to develop 10 single-asset\nprograms by leveraging Flagships ecosystem of more than 40 human health companies and multiple biotechnology platforms. Pfizer will fund and have an\noption to acquire each selected development program. Flagship and its bioplatform companies will be eligible to receive up to $700 million in milestones and\nroyalties for each successfully commercialized program.\n38\n"
+      }
+    ],
+    "gics_sector": "Health Care",
+    "doc_type": "10q",
+    "doc_period": 2023,
+    "doc_link": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000078003/c7518e4a-3aaf-4987-ae85-27460d0f526c.pdf",
+    "evidence_pages": [
+      {
+        "doc_name": "PFE_2023Q2_10Q",
+        "page_num": 37
+      }
+    ]
+  },
+  {
+    "financebench_id": "financebench_id_00724",
+    "company": "Pfizer",
+    "doc_name": "Pfizer_2023Q2_10Q",
+    "question_type": "novel-generated",
+    "question_reasoning": null,
+    "domain_question_num": null,
+    "question": "For Pfizer, which geographic region had the biggest drop in Q22023 year over year revenues (on a percentage basis)?",
+    "answer": "Developed Rest of the World",
+    "justification": "It's plainly stated in table format the year over year revenue changes for each of the regions",
+    "dataset_subset_label": "OPEN_SOURCE",
+    "evidence": [
+      {
+        "evidence_text": "The following summarizes revenues by geographic area:\n \nThree Months Ended\nSix Months Ended\n(MILLIONS)\nJuly 2,\n2023\nJuly 3,\n2022\n%\nChange\nJuly 2,\n2023\nJuly 3,\n2022\n%\nChange\nUnited States\n$\n6,185 \n$\n11,222 \n(45)\n$\n14,692 \n$\n20,140 \n(27)\nDeveloped Europe\n2,415 \n5,480 \n(56)\n5,236 \n11,569 \n(55)\nDeveloped Rest of World\n1,305 \n5,034 \n(74)\n3,778 \n8,320 \n(55)\nEmerging Markets\n2,828 \n6,006 \n(53)\n7,308 \n13,373 \n(45)\nRevenues\n$\n12,734 \n$\n27,742 \n(54)\n$\n31,015 \n$\n53,402 \n(42)",
+        "doc_name": "Pfizer_2023Q2_10Q",
+        "evidence_page_num": 37,
+        "evidence_text_full_page": "PFIZER INC. AND SUBSIDIARY COMPANIES.\nNOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS\n(UNAUDITED)\nSegment AssetsWe manage our assets on a total company basis, not by operating segment, as our operating assets are shared or commingled. Therefore, our\nchief operating decision maker does not regularly review any asset information by operating segment and, accordingly, we do not report asset information by\noperating segment. Total assets were $220 billion as of July 2, 2023 and $197 billion as of December 31, 2022.\nSelected Income Statement Information\nThe following provides selected income statement information by reportable segment:\nThree Months Ended\nSix Months Ended\n \nRevenues\nEarnings\nRevenues\nEarnings\n(MILLIONS)\nJuly 2,\n2023\nJuly 3,\n2022\nJuly 2,\n2023\nJuly 3,\n2022\nJuly 2,\n2023\nJuly 3,\n2022\nJuly 2,\n2023\nJuly 3,\n2022\nReportable Segment:\nBiopharma\n$\n12,418 \n$\n27,425 \n$\n7,003 \n$\n17,166 \n$\n30,389 \n$\n52,748 \n$\n17,939 \n$\n30,557 \nOther business activities\n316 \n317 \n(2,871)\n(3,384)\n626 \n655 \n(5,605)\n(5,812)\nReconciling Items:\nAmortization of intangible assets\n(1,184)\n(822)\n(2,287)\n(1,657)\nAcquisition-related items\n(387)\n(82)\n(550)\n(269)\nCertain significant items\n(293)\n(1,431)\n(958)\n(2,322)\n$\n12,734 \n$\n27,742 \n$\n2,269 \n$\n11,447 \n$\n31,015 \n$\n53,402 \n$\n8,539 \n$\n20,497 \nIncome from continuing operations before provision/(benefit) for taxes on income. Biopharmas earnings include dividend income from our investment in ViiV of $91 million in the second quarter\nof 2023 and $69 million in the second quarter of 2022, and $183 million in the first six months of 2023 and $125 million in the first six months of 2022. In connection with the organizational\nchanges effective in the third quarter of 2022, certain functions transferred between Biopharma and corporate enabling functions and certain activities were realigned within the GPD organization.\nWe have reclassified $58 million of costs in the second quarter of 2022 and $105 million in the first six months of 2022 from corporate enabling functions, which are included in Other business\nactivities, to Biopharma to conform to the current period presentation.\nOther business activities include revenues and costs associated with Business Innovation and costs that we do not allocate to our operating segments, per above, including acquired IPR&D\nexpenses in the periods presented. Earnings in the second quarter and first six months of 2023 include approximately $140 million and $260 million, respectively, of write-offs to Cost of sales of\ninventory related to COVID-19 products that exceeded or were expected to exceed their approved shelf-lives prior to being used. Earnings in the second quarter and first six months of 2022\nincluded a $450 million write-off to Cost of sales of inventory related to COVID-19 products that exceeded or were expected to exceed their approved shelf-lives prior to being used.\nCertain significant items are substantive and/or unusual, and in some cases recurring, items (as noted above). Earnings in the second quarter and first six months of 2022 included, among other\nitems, net losses on equity securities of $539 million and $1.2 billion, respectively, recorded in Other (income)/deductionsnet. See Note 4.\nB. Geographic Information\nThe following summarizes revenues by geographic area:\n \nThree Months Ended\nSix Months Ended\n(MILLIONS)\nJuly 2,\n2023\nJuly 3,\n2022\n%\nChange\nJuly 2,\n2023\nJuly 3,\n2022\n%\nChange\nUnited States\n$\n6,185 \n$\n11,222 \n(45)\n$\n14,692 \n$\n20,140 \n(27)\nDeveloped Europe\n2,415 \n5,480 \n(56)\n5,236 \n11,569 \n(55)\nDeveloped Rest of World\n1,305 \n5,034 \n(74)\n3,778 \n8,320 \n(55)\nEmerging Markets\n2,828 \n6,006 \n(53)\n7,308 \n13,373 \n(45)\nRevenues\n$\n12,734 \n$\n27,742 \n(54)\n$\n31,015 \n$\n53,402 \n(42)\nIn May 2023, we and our collaboration partner, BioNTech, amended our contract with the EC to deliver COVID-19 vaccines to the EU. The amended\nagreement includes rephasing of delivery of doses annually through 2026 and an aggregate volume reduction, providing additional flexibility for EU member\nstates. The EC will maintain access to future adapted COVID-19 vaccines and the ability to donate doses, in alignment with the original agreement. See Note\n13C.\nC. Other Revenue Information\nSignificant CustomersFor information on our significant wholesale customers, see Note 17C in our 2022 Form 10-K. Additionally, revenues from the U.S.\ngovernment represented 1% and 9% of total revenues for the three and six months ended July 2, 2023, respectively, and 26% and 22% of total revenues for the\nthree and six months ended July 3, 2022, respectively. Accounts receivable from the U.S. government represented less than 1% and 4% of total trade accounts\nreceivable as of July 2, 2023 and December 31, 2022, respectively. Revenues and accounts receivable from the U.S. government primarily represent sales of\nPaxlovid and Comirnaty.\n(a)\n(a)\n(b)\n(c)\n(a)\n(b)\n(c)\n35\n"
+      }
+    ],
+    "gics_sector": "Health Care",
+    "doc_type": "10q",
+    "doc_period": 2023,
+    "doc_link": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000078003/c7518e4a-3aaf-4987-ae85-27460d0f526c.pdf",
+    "evidence_pages": [
+      {
+        "doc_name": "PFE_2023Q2_10Q",
+        "page_num": 34
+      }
+    ]
+  },
+  {
+    "financebench_id": "financebench_id_02419",
+    "company": "Pfizer",
+    "doc_name": "Pfizer_2023Q2_10Q",
+    "question_type": "novel-generated",
+    "question_reasoning": null,
+    "domain_question_num": null,
+    "question": "As of Q2'2023, is Pfizer spinning off any large business segments?",
+    "answer": "Yes, it's spinning off Upjohn.",
+    "justification": null,
+    "dataset_subset_label": "OPEN_SOURCE",
+    "evidence": [
+      {
+        "evidence_text": "We expect to incur costs of approximately $700 million in connection with separating Upjohn, of which approximately 90% has been incurred since inception\nand through the second quarter of 2023. These charges include costs and expenses related to separation of legal entities and transaction costs.",
+        "doc_name": "Pfizer_2023Q2_10Q",
+        "evidence_page_num": 40,
+        "evidence_text_full_page": "ITEM 2. MANAGEMENTS DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF\nOPERATIONS\nGENERAL\nThe following MD&A is intended to assist the reader in understanding our financial condition and results of operations, including an evaluation of the amounts\nand certainty of cash flows from operations and from outside sources, and is provided as a supplement to and should be read in conjunction with the condensed\nconsolidated financial statements and related notes in Item 1. Financial Statements in this Form 10-Q.\nReferences to operational variances pertain to period-over-period changes that exclude the impact of foreign exchange rates. Although foreign exchange rate\nchanges are part of our business, they are not within our control and because they can mask positive or negative trends in the business, we believe presenting\noperational variances excluding these foreign exchange changes provides useful information to evaluate our results.\nOVERVIEW OF OUR PERFORMANCE, OPERATING ENVIRONMENT, STRATEGY AND OUTLOOK\nOur Business and StrategyPfizer Inc. is a research-based, global biopharmaceutical company. We apply science and our global resources to bring therapies\nto people that extend and significantly improve their lives. In 2023, we are making additional investments in both R&D and SI&A to support Pfizers near- and\nlonger-term growth plans, including to support anticipated new launches, commercial launch of COVID-19 products, potential pipeline programs and recently\nacquired assets. We manage our commercial operations through a global structure consisting of two operating segments: Biopharma and Business Innovation.\nBiopharma is the only reportable segment. See Note 13A.\nWe expect to incur costs of approximately $700 million in connection with separating Upjohn, of which approximately 90% has been incurred since inception\nand through the second quarter of 2023. These charges include costs and expenses related to separation of legal entities and transaction costs.\nIn the fourth quarter of 2022, we began taking steps through our Transforming to a More Focused Company restructuring program to optimize our end-to-end\nR&D operations to reduce costs and cycle times as well as to further prioritize our internal R&D portfolio in areas where our capabilities are differentiated\nwhile increasing external innovation efforts to leverage an expanding and productive biotech sector. See Note 3. For a description of savings related to this\nprogram, see the Costs and ExpensesRestructuring Charges and Other Costs Associated with Acquisitions and Cost-Reduction/Productivity Initiatives\nsection within MD&A.\nIn July 2023, we announced that in consideration of planned future investments in oncology, including the proposed acquisition of Seagen, we are reorganizing\nhow our R&D operations are conducted. Beginning in July 2023, discovery to early- and late-phase clinical development for oncology will be performed by a\nnew end-to-end Oncology Research and Development platform function and discovery to early- and late-phase clinical development for all remaining\ntherapeutic areas will be consolidated in the Pfizer Research and Development platform function.\nFor additional information about our business, strategy and operating environment, see the Item 1. Business section and Overview of Our Performance,\nOperating Environment, Strategy and Outlook section within MD&A of our 2022 Form 10-K.\nOur Business Development InitiativesWe are committed to strategically capitalizing on growth opportunities, primarily by advancing our own product\npipeline and maximizing the value of our existing products, but also through various business development activities. Our significant recent business\ndevelopment activities include the transactions discussed in Notes 1A and 2, including the proposed acquisition of Seagen, as well as the following:\nProposed Divestiture of Early-Stage Rare Disease Gene Therapy PortfolioIn July 2023, we entered into an agreement with Alexion, a subsidiary of\nAstraZeneca plc, under which Alexion will purchase and license the assets of our early-stage rare disease gene therapy portfolio. This agreement is consistent\nwith our previously announced strategy to pivot from viral capsid-based gene therapy approaches to harnessing new platform technologies that we believe can\nhave a transformative impact on patients, such as mRNA or in vivo gene editing. Under the terms of the agreement, Alexion will pay us total consideration of\nup to $1 billion, plus tiered royalties based on annual net sales of the assets. The transaction is expected to close in the third quarter of 2023, subject to\ncustomary closing conditions.\nAgreement with Flagship Pioneering, Inc. (Flagship)In July 2023, we and Flagship announced that we have partnered to create a new pipeline of innovative\nmedicines. Under the terms of the novel agreement, we and Flagship will each invest $50 million upfront to explore opportunities to develop 10 single-asset\nprograms by leveraging Flagships ecosystem of more than 40 human health companies and multiple biotechnology platforms. Pfizer will fund and have an\noption to acquire each selected development program. Flagship and its bioplatform companies will be eligible to receive up to $700 million in milestones and\nroyalties for each successfully commercialized program.\n38\n"
+      }
+    ],
+    "gics_sector": "Health Care",
+    "doc_type": "10q",
+    "doc_period": 2023,
+    "doc_link": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000078003/c7518e4a-3aaf-4987-ae85-27460d0f526c.pdf",
+    "evidence_pages": [
+      {
+        "doc_name": "PFE_2023Q2_10Q",
+        "page_num": 37
+      }
+    ]
+  }
+]

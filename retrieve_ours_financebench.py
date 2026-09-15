@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """
 Notre methode (TOC-navigation + BM25 ancre + contagion semantique) appliquee
-au corpus FinanceBench, harmonisee avec le mecanisme de retrieval de
-solvency2_rag (voir analyse.md a la racine de research-financebench) :
+au corpus FinanceBench :
 - extraction en combinaisons de mots-cles ordonnees par priorite, chacune
   avec des synonymes optionnels ("~"), au lieu du format PRIMARY/SECONDARY/
   TERTIARY d'origine.
@@ -47,7 +46,7 @@ LLM_MODEL = "gemini-2.5-flash"
 FALLBACK_MODEL = "gemini-3-flash-preview"
 
 COMBO_QUOTAS = [3, 2, 1, 1, 1, 1]  # unites etendues (passages) max par combinaison, selon son rang de priorite
-# Identique a solvency2_rag. Teste avec un quota plus large ([4,3,2,2,1,1]) et un budget BM25
+# Teste avec un quota plus large ([4,3,2,2,1,1]) et un budget BM25
 # releve a 4000 tokens : sur les 150 questions, cette variante degradait l'accuracy (52,0% contre
 # 55,3% ici) sans ameliorer le recall de facon significative -- retenu tel quel, meilleur
 # compromis precision/accuracy mesure empiriquement sur ce corpus.

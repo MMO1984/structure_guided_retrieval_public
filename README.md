@@ -17,10 +17,9 @@ A write-up of the method and results is available on ResearchGate (September 202
 | 3 | `fill_toc_gaps.py` | For large gaps between detected headers (filers that don't visually repeat section titles), asks an LLM to propose a short descriptive title per gap segment, so every filing ends up with a genuinely multi-level hierarchy. |
 | 4 | `generate_toc_financebench.py` | Builds a table-of-contents JSON per document from the Markdown headers. |
 | 5 | `prepare_embeddings_financebench.py` | Builds the retrieval index: blocks, sentence-level units, embeddings, precomputed semantic-contagion groups, and a per-document BM25 index. Also tracks each unit's exact page span, for the page-level metrics. |
-| 6 | `evaluate_financebench_full.py` | Runs the method (wide budget: 4,000/3,000 tokens) end-to-end on the 150 public questions, with incremental caching. |
-| 7 | `evaluate_financebench_jeu3_full.py` | Same, at the narrower 2,000/1,500-token budget, for the precision/recall/cost trade-off. |
+| 6 | `evaluate_financebench_full.py` | Runs the method end-to-end on the 150 public questions, with incremental caching. |
 
-`retrieve_ours_financebench.py` is the retrieval+generation engine used by both evaluation scripts; `metrics_financebench.py` and `jeu_metrics_financebench.py` implement Answer Accuracy and two Page Recall/Precision conventions (decimal and whole-page -- see code docstrings for why both are reported).
+`retrieve_ours_financebench.py` is the retrieval+generation engine, with `COMBO_QUOTAS`, `RAG_MAX_TOKENS_SECTIONS`, and `RAG_MAX_TOKENS_BM25` as its module-level configuration constants; `metrics_financebench.py` and `jeu_metrics_financebench.py` implement Answer Accuracy and two Page Recall/Precision conventions (decimal and whole-page -- see code docstrings for why both are reported).
 
 `build_dataset.py` shows how `all_150_questions.json` (already included in this repository) is built directly from FinanceBench's own official JSONL, which natively carries 0-indexed page-level evidence annotations.
 
@@ -36,11 +35,12 @@ python fill_toc_gaps.py
 python generate_toc_financebench.py
 python prepare_embeddings_financebench.py
 
-python evaluate_financebench_full.py        # wide budget -> results/full_summary.json
-python evaluate_financebench_jeu3_full.py   # narrow budget -> results/jeu3_full_summary.json
+python evaluate_financebench_full.py        # -> results/full_summary.json (Table 1 configuration: COMBO_QUOTAS=[3,2,1,1,1,1], 4,000/3,000-token budget)
 ```
 
-Final numbers are already committed under `results/` (`full_summary.json`, `jeu3_full_summary.json`, and the full per-question caches).
+Final numbers for the reported configuration are already committed under `results/` (`full_summary.json` and `full_cache.json`).
+
+`results/ablation_looser_quota_raised_budget_summary.json` (and its per-question cache) is the looser-quota / raised-budget ablation discussed in the paper (Section "Experimental Setup" and "Discussion and Limitations"): `COMBO_QUOTAS=[4,3,2,2,1,1]`, `RAG_MAX_TOKENS_BM25=4000`, validated at n=150 (Answer Accuracy 52.0% vs. 55.3% for the reported configuration). It was produced by editing those two constants in `retrieve_ours_financebench.py` and rerunning `evaluate_financebench_full.py`.
 
 ## Data attribution
 

@@ -1,9 +1,0 @@
-{
-  "n_questions": 150,
-  "max_tokens_sections": 2000,
-  "max_tokens_bm25": 1500,
-  "accuracy": 0.5066666666666667,
-  "page_recall_decimal": 0.576334607376061,
-  "page_precision_decimal": 0.0993055158433405,
-  "avg_tokens_used": 8818.973333333333
-}

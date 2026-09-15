@@ -2,7 +2,7 @@
 
 **Summary:** Retrieval-augmented generation (RAG) systems commonly fail in one of two complementary ways: fine-grained embedding retrieval finds a relevant sentence stripped of the context needed to interpret it, while coarse chunk-based retrieval loses a document's global structure. This repository contains the code and evaluation data for a hybrid RAG architecture that addresses both failure modes through three components: (1) an LLM navigates a table of contents and decides itself which whole sections to retrieve, (2) the same LLM call proposes lexical keywords matched via BM25 over paragraph-level units, (3) matches are expanded into coherent passages via *semantic contagion groups* -- adjacency chains over sentence-embedding similarity, precomputed entirely offline. We evaluate the method on [FinanceBench](https://github.com/patronus-ai/financebench) (Islam et al., 2023), a public benchmark of real SEC financial filings, and compare it against [HiREC](https://github.com/JaeyoungChoe/LOFin-bench-HiREC) (Choe et al., 2025, ACL Findings), a peer-reviewed hierarchical-retrieval system.
 
-A write-up of the method and results is available as a preprint on HAL: [hal-05731784](https://hal.science/hal-05731784v1) (currently under moderation; the link will resolve once the deposit is validated).
+A write-up of the method and results is available on ResearchGate (September 2026, DOI: [10.13140/RG.2.2.29119.68000](https://doi.org/10.13140/RG.2.2.29119.68000), CC BY 4.0).
 
 ---
 
@@ -49,20 +49,20 @@ Final numbers are already committed under `results/` (`full_summary.json`, `jeu3
 
 ## License
 
-The code in this repository is released under the [MIT License](LICENSE). This does not cover the FinanceBench data (CC BY-NC 4.0, see above) or any third-party code it depends on.
+The code in this repository is released under the [MIT License](LICENSE). This does not cover the FinanceBench data (CC BY-NC 4.0, see above) or any third-party code it depends on. The paper (`structure_guided_retrieval_majri_v1.pdf`) is released under CC BY 4.0.
 
 ## Citation
 
-If you use this code, please cite the HAL preprint, as well as the FinanceBench and HiREC papers it builds on:
+If you use this code, please cite the paper, as well as the FinanceBench and HiREC papers it builds on:
 
 ```bibtex
 @misc{majri2026structureguidedretrieval,
   title={Structure-Guided Retrieval with LLM-Directed Table-of-Contents Navigation and Precomputed Semantic Contagion: A Hybrid RAG Architecture},
   author={Majri, Mohamed},
   year={2026},
-  hal_id={hal-05731784},
-  hal_version={v1},
-  url={https://hal.science/hal-05731784v1}
+  month={September},
+  doi={10.13140/RG.2.2.29119.68000},
+  url={https://doi.org/10.13140/RG.2.2.29119.68000}
 }
 
 @misc{islam2023financebench,
